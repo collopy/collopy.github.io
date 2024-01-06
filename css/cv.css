@@ -1,0 +1,75 @@
+ul {margin: 0; padding: 0;}
+li {list-style: none;}
+td ul, li li {padding-bottom: 0;}
+td li {padding: 0;}
+
+h3:first-child {margin-top: 0;}
+
+.courses, .abstract, .hide {display: none;}
+#experience, .cvhide {display: none;}
+/*#appointments, #expertise, #edited, #reviews, #reports, #theses, #assistant, #progress, #seminars, #discussant, #campus, #work, .pregradschool, .resumehide {display: none;}*/
+.year {vertical-align: top; width: 6em;}
+
+@media screen
+{
+	h2 {color: #A00; margin: 12pt 0 6pt;}
+	h3 {font-size: 12pt; color: maroon; margin: 12pt 0 6pt; padding-left: .75em;}
+	table, ul {padding: 0 0 6pt 1.5em;}
+	li ul {padding-bottom: 0;}
+	td li, li li {list-style: circle;}
+	
+	#cvmenu {font-size: smaller; margin-top: 10px; position: sticky;}
+	.money {display: none;}
+	#label, #address, #contact, .print {display: none;}
+	
+	.courses, .abstract {display: block; padding: 0; font-size: small; max-height: 0; overflow: hidden; transition: max-height 1s;}
+	.courses td {padding: 5px 0 0 8px; vertical-align: top;}
+	.department {width: 9em; font-weight: bold;}
+	.abstract {padding-left: 1em;}
+	.citations {text-align: right; font-size: small;}
+	
+	/*Education*/
+	#penn:hover #penncourses {max-height: 400px;}
+	#oberlin:hover #oberlincourses {max-height: 750px;}
+	#rbs:hover #rbscourses {max-height: 50px;}
+	#das:hover #dascourses {max-height: 350px;}
+	#oberlincourses {transition: max-height 2s;}
+	#rbscouses {transition: max-height .25s;}
+	
+	/*Publications*/
+	#lavideo:hover #lavideoabstract, #racerelationships:hover #racerelationshipsabstract, #videosynthesizers:hover #videosynthesizersabstract, #lsd:hover #lsdabstract {max-height: 150px;}
+	#closedcircuit:hover #closedcircuitabstract, #revolution:hover #revolutionabstract, #wright:hover #wrightabstract {max-height: 300px;}
+	
+	/*Exhibitions*/
+	#becoming:hover #becomingabstract, #mindseye:hover #mindseyeabstract {max-height: 300px;}
+}
+
+@media print
+{
+	h2, h3 {break-after: avoid;}
+	h2 {font-size: 12pt; margin: 18pt 0 12pt; text-transform: uppercase;}
+	h3 {margin: 6pt 0 12pt;}
+	tr, li {break-inside: avoid;}
+	td, li {padding: 0 0 12pt;}
+	td li, li li {padding-left: 12pt;}
+	abbr {text-decoration: none;}
+	
+	@page {margin: .75in; @top-right {content: "Collopy";}; @bottom-center {content: counter(page) " of " counter(pages);}}
+	@page:first {@top-right {content: normal;}}
+	
+	.screen, .nomoney {display: none;}
+	.money {font-style: italic;}
+	
+	#name {width: auto; text-align: center; padding-bottom: 0; border-bottom: none;}
+	#label {margin-top: 12pt; text-align: center;}
+	#address {float: left; margin-top: 6pt;}
+	#contact {margin-top: 6pt; text-align: right;}
+	
+	#experience p {margin-top: 3pt;}
+	#experience li {margin-left: 1em; padding: 3pt 0 0; list-style-type: disc;}
+}
+
+@media screen and (max-width: 400px)
+{
+	#appointments {clear: right;}
+}

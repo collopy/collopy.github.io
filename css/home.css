@@ -1,0 +1,30 @@
+td {padding: 2px 3px;}
+
+.medium {text-align: right; vertical-align: top; width: 40%;}
+.address {font-weight: bold;}
+.invisible {display: none;}
+.small {font-size: 9pt; text-align: center;}
+
+@media screen
+{
+	p {font-size: larger; margin: 70px auto 40px; max-width: 600px;}
+	#content {padding-bottom: 0;}
+}
+
+@media print
+{
+	#links {display: none;}
+}
+
+@media (max-width: 500px)
+{
+	p {clear: both;}
+	#addresses table {margin: 15px 0; width: 100%;}
+}
+
+@media (min-width: 500px)
+{
+	#topleft {float: left; width: 50%; padding: 40px 10px 0 0;}
+	#bottomleft {clear: left; float: left; width: 50%; padding: 10px 10px 10px 0;}
+	#topright {padding: 40px 0 10px 10px;}
+}

@@ -1,0 +1,4 @@
+ErrorDocument 403 /403/
+ErrorDocument 404 /404/
+
+AddDefaultCharset UTF-8

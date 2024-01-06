@@ -1,0 +1,42 @@
+url: "https://collopy.net"
+baseurl: ""
+title: "Peter Sachs Collopy"
+author: "Peter Sachs Collopy"
+
+excerpt_separator: <!--more-->
+permalink: /:categories/:year/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+  
+feed:
+  categories:
+    - discussions
+    - interviews
+    - exhibits
+    - presentations
+    - teaching
+    - writing
+    - articles
+    - reviews
+    - theses
+  posts_limit: 100
+  tags:
+    path: "/feed/tag/"
+    
+pagination:
+  enabled: true
+  sort_reverse: true
+  per_page: 5
+  title: ':title, page :num of :max'
+
+autopages:
+  enabled: true
+  categories:
+    permalink: '/:cat'
+  tags:
+    slugify:
+      mode: 'pretty'

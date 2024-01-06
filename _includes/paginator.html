@@ -1,0 +1,18 @@
+<ul>
+{% for post in paginator.posts %}
+  {% include blogpost.html %}
+{% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+  {% if paginator.previous_page %}
+  <div class="previous">
+	<a href="{{ paginator.previous_page_path }}">later</a>
+  </div>
+  {% endif %}
+  {% if paginator.next_page %}
+  <div class="next">
+	<a href="{{ paginator.next_page_path }}">earlier</a>
+  </div>
+  {% endif %}
+{% endif %}
