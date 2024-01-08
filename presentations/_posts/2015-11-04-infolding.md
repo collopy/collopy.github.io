@@ -3,7 +3,7 @@ layout: post
 title: "Infolding the Self: From Video Therapy to Video Art"
 venue: Re-Create Emerging Researchers’ Symposium
 gs: 17023638600660826570
-tags: video consciousness visual-culture psychiatry art media technology psy-ences
+tags: video consciousness visual-culture psychiatry art media technology psy-ences human-sciences
 ---
 
 Video self-observation in psychotherapy and art:

@@ -7,7 +7,7 @@ editors: Dieter Daniels and Jan Thoben
 publisher: Bloomsbury
 pages: 108–118
 link: "/writing/publications/Video%20and%20the%20Self.pdf"
-tags: technology media video cybernetics psychiatry consciousness visual-culture psy-ences
+tags: technology media video cybernetics psychiatry consciousness visual-culture psy-ences human-sciences
 ---
 
 The introduction to a chapter which I guest edited:
