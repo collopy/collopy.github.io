@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Behind the Book: <cite>Escape from Earth</cite>"
+medium: discussion
 venue: Caltech
 collaborators: Fraser MacDonald and Erik Conway
 tags: Caltech radicalisms archives politics technology technopolitics

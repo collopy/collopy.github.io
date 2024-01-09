@@ -10,7 +10,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-paginate-v2
   
 feed:
   categories:
@@ -30,7 +29,7 @@ feed:
 pagination:
   enabled: true
   sort_reverse: true
-  per_page: 5
+  per_page: 25
   title: ':title, page :num of :max'
 
 autopages:

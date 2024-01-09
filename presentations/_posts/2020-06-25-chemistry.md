@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Chemistry Comes to Caltech"
+medium: presentation
 venue: "Caltech"
 tags: Caltech chemistry
 ---

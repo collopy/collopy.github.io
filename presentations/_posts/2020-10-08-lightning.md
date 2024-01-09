@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Caltech’s House of Lightning"
+medium: presentation
 venue: "Caltech"
 collaborators: Loma Karklins
 tags: Caltech physics science technology

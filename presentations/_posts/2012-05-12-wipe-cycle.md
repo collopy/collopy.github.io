@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "<cite>Wipe Cycle</cite>: Feedback and Experimental Video"
+medium: presentation
 venue: University of Pennsylvania 60 Second Slam
 tags: video consciousness visual-culture art cybernetics media technology
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "From High Volts to High Energy Physics"
+medium: presentation
 venue: "Caltech"
 tags: Caltech physics technology
 ---

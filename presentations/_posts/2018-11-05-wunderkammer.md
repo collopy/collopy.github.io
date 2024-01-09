@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Caltech Archives as Modern Wunderkammer"
+medium: presentation
 venue: "LASER Pasadena: Wunderkammer, ArtCenter College of Design"
 tags: Caltech archives science
 ---

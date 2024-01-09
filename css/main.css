@@ -18,3 +18,4 @@ iframe {max-width: 100%;}
 .previous, .next {width: 50%; margin-top: -5px; font-weight: bold;}
 .previous {float: left;}
 .next {float: right; text-align: right;}
+.blogpost {padding-bottom: 9pt;}

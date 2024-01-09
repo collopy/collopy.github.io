@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Copernicus to Feynman: Paper and Print in the Caltech Archives from 1500 to Present"
-venue: "Caltech Physics Colloquium"
+medium: presentation
+venue: "Caltech Alumni Associations"
 tags: Caltech archives bibliography media technology
 ---
 

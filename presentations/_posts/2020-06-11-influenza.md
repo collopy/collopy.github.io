@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Influenza Comes to Throop"
+medium: presentation
 venue: "Caltech"
 tags: Caltech
 ---

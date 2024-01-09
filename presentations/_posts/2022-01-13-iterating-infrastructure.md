@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Iterating Infrastructure from High Volts to X-Rays to Nuclear Physics: Early Caltech Science in the Archives"
+medium: presentation
 venue: "Caltech Physics Colloquium"
 tags: physics Caltech technology science
 ---
