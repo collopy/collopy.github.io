@@ -4,9 +4,6 @@ title: "Caltech’s House of Lightning"
 medium: presentation
 venue: "Caltech"
 collaborators: Loma Karklins
+link: "https://www.youtube.com/watch?v=mCiWitep2js&list=PLdAuZfFi4N-lmxhTy5RhuPDEo5G2PEbTr"
 tags: Caltech physics science technology
 ---
-
-The origins of Caltech’s High Voltage Research Laboratory (now Linde Hall):
-
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/mCiWitep2js" title="Video player" frameborder="0" allow="picture-in-picture; web-share; fullscreen;"></iframe>
