@@ -5,15 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	
-	<link rel="stylesheet" href="/css/main.css">
-	<link rel="stylesheet" media="screen" href="/css/screen.css">
-	<link rel="stylesheet" media="print" href="/css/print.css"">
+	<link rel="stylesheet" href="{{ 'css/main.css' | absolute_url }}">
+	<link rel="stylesheet" media="screen" href="{{ 'css/screen.css' | absolute_url }}">
+	<link rel="stylesheet" media="print" href="{{ 'css/print.css' | absolute_url }}">
 	{% if page.url == "/" %}
-	  <link rel="stylesheet" href="/css/home.css">
+	  <link rel="stylesheet" href="{{ 'css/home.css' | absolute_url }}">
 	{% elsif page.url == "/writing/2012/bibliography/" %}
-	  <link rel="stylesheet" href="/css/bibliography.css">
+	  <link rel="stylesheet" href="{{ 'css/bibliography.css' | absolute_url }}">
 	{% elsif page.url == "/cv/" %}
-	  <link rel="stylesheet" href="/css/cv.css">
+	  <link rel="stylesheet" href="{{ 'css/cv.css' | absolute_url }}">
+	{% elsif page.url == "/shortcv/" %}
+		<link rel="stylesheet" href="{{ 'css/cv.css' | absolute_url }}">
 	{% endif %}
 	
 	{% feed_meta %}
