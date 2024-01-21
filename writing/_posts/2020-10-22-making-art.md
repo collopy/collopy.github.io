@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Making Art Do Work"
-medium: book review
+format: book review
 publication: Los Angeles Review of Books
 review-title: "Making Art Work: How Cold War Engineers and Artists Forged a New Creative Culture"
 review-authors: W. Patrick McCray
 link: https://lareviewofbooks.org/article/making-art-do-work/
+medium: text
 tags: technology media art visual-culture politics
 ---
 

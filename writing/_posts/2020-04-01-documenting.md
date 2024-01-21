@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "<cite>Documenting the World: Film, Photography, and the Scientific Record</cite>"
-medium: book review
+format: book review
 publication: Technology and Culture
 volume: 61
 number: 2
 pages: 697–698
 review-editors: Gregg Mitman and Kelley Wilder
 link: /writing/publications/Documenting%20the%20World.pdf
+medium: text
 tags: science technology media visual-culture film photography human-sciences
 ---
 

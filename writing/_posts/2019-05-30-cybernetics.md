@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "<cite>The Cybernetics Moment, or Why We Call Our Age the Information Age</cite>"
-medium: book review
+format: book review
 publication: IEEE Annals of the History of Computing
 volume: 41
 issue: 2
 pages: 67–70
 review-authors: Ronald R. Kline
 link: /writing/publications/The%20Cybernetics%20Moment.pdf
+medium: text
 tags: science technology media computing cybernetics
 ---
 

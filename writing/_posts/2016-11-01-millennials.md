@@ -3,6 +3,7 @@ layout: post
 title: "What Does It Mean to Say Millennials Are Having Less Sex?"
 publication: Nursing Clio
 link: "https://nursingclio.org/2016/11/01/what-does-it-mean-to-say-millennials-are-having-less-sex/"
+medium: text
 tags: science sexuality psychology psy-ences human-sciences
 ---
 

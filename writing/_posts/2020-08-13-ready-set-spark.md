@@ -4,6 +4,7 @@ title: "Ready, Set, Spark"
 publication: Caltech Magazine
 issue: Summer
 link: "https://magazine.caltech.edu/post/spark"
+medium: text
 tags: Caltech science physics technology
 ---
 

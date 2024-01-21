@@ -7,6 +7,7 @@ number: 3
 pages: 237–260
 link: "/writing/publications/Race%20Relationships.pdf"
 gs: 8754565656821644246
+medium: text
 tags: science biology anthropology evolution politics race white-supremacy conservatism human-sciences
 ---
 

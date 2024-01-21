@@ -3,6 +3,7 @@ layout: post
 title: "<i>Ego Me Absolvo</i>: Catholicism as Prototype in Paul Ryan’s Experimental Video"
 publication: Archée
 link: "https://archee.uqam.ca/juillet-2016-ego-me-absolvo-catholicism-as-prototype-in-paul-ryans-experimental-video/"
+medium: text
 tags: technology media video art visual-culture cybernetics consciousness religion Christianity
 ---
 

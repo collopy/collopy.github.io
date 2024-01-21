@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "The Revolution Will Be Videotaped: Making a Technology of Consciousness in the Long 1960s"
-medium: dissertation
+format: dissertation
 venue: University of Pennsylvania
 link: "https://repository.upenn.edu/handle/20.500.14332/28500"
 gs: 13081425728037104005
+medium: text
 tags: politics radicalism technology media consciousness cybernetics video art visual-culture analog/digital synthesizers psychedelics evolution psychiatry psy-ences war technopolitics science human-sciences
 ---
 

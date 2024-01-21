@@ -6,5 +6,6 @@ issue: Spring
 collaborators: Jon Nalick
 author: Peter Sachs Collopy and Jon Nalick
 link: "https://magazine.caltech.edu/post/caltech-evolution/#QA"
+medium: text
 tags: Caltech
 ---

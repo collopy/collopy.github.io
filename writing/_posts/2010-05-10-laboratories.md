@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Laboratories and Managerial Science
+medium: text
 tags: science capitalism management laboratories
 ---
 
