@@ -7,8 +7,7 @@ td {padding: 2px 3px;}
 
 @media screen
 {
-	p {font-size: larger; margin: 0 auto 25px; max-width: 490px;}
-	p:first-of-type {margin-top: 70px;}
+	p {font-size: larger; margin: 40px auto 20px; max-width: 490px;}
 	#content {padding-bottom: 0;}
 }
 
