@@ -4,7 +4,7 @@ h1 {color: rgb(111, 45, 165);}
 
 a:link {color: darkblue; text-decoration: underline;}
 a:visited {color: rgb(80, 80, 80);}
-a:hover {color: maroon; text-decoration: underline;}
+a:hover {color: maroon;}
 
 nav {clear: right; float: right; text-transform: lowercase; text-align: right; margin: 40px 0 10px 20px; padding: 0 2px 5px 10px; border-width: 0 0 1px 1px; border-style: solid;}
 nav a:link {text-decoration: none;}
