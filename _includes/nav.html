@@ -1,7 +1,10 @@
 <nav>
   {% for item in site.data.navigation %}
-	{% if page.url == item.link %}
+	{% capture url_index %}{{item.link}}index.html{% endcapture %}
+	{% if page.url == item.link or page.url == url_index %}
 	  <span class="tab selected">{{ item.name }}</span>
+	{% elsif page.url contains item.link and item.link != "/"  %}
+	  <a href="{{ item.link }}" class="tab selected">{{ item.name }}</a>
 	{% else %}
 	  <a href="{{ item.link }}" class="tab">{{ item.name }}</a>
 	{% endif %}

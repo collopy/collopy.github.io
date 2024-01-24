@@ -14,17 +14,13 @@ plugins:
 feed:
   categories:
     - discussions
-    - interviews
     - exhibits
     - presentations
     - teaching
     - writing
-    - articles
-    - reviews
-    - theses
   posts_limit: 100
   tags:
-    path: "/feed/tag/"
+    path: "/feed/tags/"
     
 pagination:
   enabled: true
@@ -37,5 +33,6 @@ autopages:
   categories:
     permalink: '/:cat'
   tags:
+    permalink: '/tags/:tag'
     slugify:
       mode: 'pretty'
