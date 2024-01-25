@@ -20,7 +20,7 @@ feed:
     - writing
   posts_limit: 100
   tags:
-    path: "/feed/tags/"
+    path: "/feed/subjects/"
     
 pagination:
   enabled: true
@@ -33,6 +33,7 @@ autopages:
   categories:
     permalink: '/:cat'
   tags:
-    permalink: '/tags/:tag'
+    permalink: '/subjects/:tag'
+    title: 'On :tag'
     slugify:
       mode: 'pretty'

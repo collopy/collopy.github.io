@@ -6,5 +6,5 @@ collaborators: Deborah Withers
 author: Peter Sachs Collopy and Deborah Withers
 link: "https://thegreatbear.net/video-tape/video-technologies-consciousness/"
 medium: text
-tags: video consciousness visual-culture analog/digital media technology
+tags: [video, consciousness, visual culture, analog/digital, media, technology]
 ---
