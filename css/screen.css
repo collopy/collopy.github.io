@@ -11,3 +11,8 @@ nav a:visited {color: darkblue;}
 nav a:hover {color: maroon;}
 .tab {display: block;}
 .selected {font-weight: bold;}
+
+@media (max-width: 600px)
+{
+	body {padding: 30px;}
+}
