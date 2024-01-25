@@ -1,7 +1,7 @@
 body {font-family: Helvetica, sans-serif; max-width: 800px; padding: 30px 60px; margin: 20px auto; line-height: 1.3; background-color: white;}
-h1 {font-size: 16pt; margin: 0 0 20px;}
-h2 {font-size: 14pt; margin: 12pt 0 3pt;}
-h3 {font-size: 12pt; margin: 9pt 0 3pt;}
+h1 {font-size: 16pt; margin: 0 0 20px; color: rgb(97, 41, 144);}
+h2 {font-size: 14pt; margin: 12pt 0 3pt; color: rgb(80, 33, 118);}
+h3 {font-size: 12pt; margin: 9pt 0 3pt; color: rgb(80, 33, 118);}
 h4, h5 {font-size: 12pt; margin: 3pt 0;}
 ul {padding-left: 1em; margin: 4pt 0; list-style: none;}
 td, li {padding: 0 0 6pt;}
