@@ -9,7 +9,7 @@ pages: 67–70
 review-authors: Ronald R. Kline
 link: /writing/publications/The%20Cybernetics%20Moment.pdf
 medium: text
-tags: science technology media computing cybernetics
+tags: science technology media computing cybernetics engineering
 ---
 
 The historical literature on cybernetics has ballooned in the last 15 years, as scholars have sought to understand how scientists and engineers studying “control and communication in the animal and the machine” (as Norbert Weiner subtitled his book <cite>Cybernetics</cite>) contributed to Soviet and Chilean computer networks, assistive technologies for the deaf, theories of schizophrenia, and experimental music and cinema, to name just a few of their projects. This range of topics raises anew the question—central to historians’ accounts since the early 1990s—of what exactly cybernetics was. As the first book to integrate the many dimensions of cybernetics into a single narrative, <cite>The Cybernetics Moment</cite> presents a new answer to this crucial question.

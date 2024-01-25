@@ -8,7 +8,7 @@ publisher: Bloomsbury
 pages: 108–118
 link: "/writing/publications/Video%20and%20the%20Self.pdf"
 medium: text
-tags: technology media video cybernetics psychiatry consciousness visual-culture psy-ences human-sciences
+tags: technology media video cybernetics psychiatry consciousness visual-culture psy-ences human-sciences medicine gender
 ---
 
 The introduction to a chapter which I guest edited:

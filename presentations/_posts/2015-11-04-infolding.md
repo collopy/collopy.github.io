@@ -5,5 +5,5 @@ venue: Re-Create Emerging Researchers’ Symposium
 gs: 17023638600660826570
 link: "https://www.youtube.com/watch?v=htPaGRXFffc#t=31m16s"
 medium: video
-tags: video consciousness visual-culture psychiatry art media technology psy-ences human-sciences
+tags: video consciousness visual-culture psychiatry art media technology psy-ences human-sciences medicine
 ---
