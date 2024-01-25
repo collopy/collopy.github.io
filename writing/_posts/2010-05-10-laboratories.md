@@ -49,7 +49,7 @@ Early on Jewett recruited Harold D. Arnold to serve as the physicist responsible
 
 One important reason why a physicist like Jewett was able to take on the presidency of such a large organization was that he had been a manager throughout his career. The practice of laboratory research in which Jewett had been trained involved the labor of graduate students and technicians, and it was the responsibility of the credentialed scientist to guide this labor toward productive ends. Managing Bell Labs as president was different from running a lab at the University of Chicago or MIT, but it was different primarily in scale. A senior scientist, regardless of his institutional location, was responsible for such tasks as staff development, communicating with funders, and setting a research agenda, and this was no different within a firm such as AT&T. Furthermore, at AT&T research managers such as Carty and Jewett were able to represent their laboratories to the corporation in the same way that a lab director in a university or institute represents their laboratory to their colleagues and the public, and thus to take their place within an existing corporate hierarchy.
 
-**Works Cited**
+### Works Cited
 - Alfred D. Chandler, Jr., “The United States: Seedbed of Managerial Capitalism,” in *Managerial Hierarchies: Comparative Perspectives on the Rise of the Modern Industrial Enterprise*, edited by Alfred D. Chandler, Jr. and Herman Daems (Cambridge, Mass.: Harvard University Press, 1980).
 - Robert E. Kohler, “[Lab History: Reflections](https://doi.org/10.1086/595769),” *Isis* 99 (2008).
 - Bruno Latour and Steve Woolgar, *Laboratory Life: The Construction of Scientific Facts*, second edition (Princeton: Princeton University Press, 1986).
