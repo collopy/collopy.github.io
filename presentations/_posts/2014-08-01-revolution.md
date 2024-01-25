@@ -4,5 +4,5 @@ title: "The Revolution Will Be Videotaped: Making a Technology of Consciousness 
 publication: Technology’s Stories
 link: "https://vimeo.com/102347583"
 medium: video
-tags: [video, consciousness, visual culture, cybernetics, media, technology]
+tags: [video, consciousness, visual culture, cybernetics, media, technology, counterculture]
 ---
