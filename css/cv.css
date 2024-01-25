@@ -12,8 +12,8 @@ h3:first-child {margin-top: 0;}
 
 @media screen
 {
-	h2 {color: rgb(80, 33, 118); margin: 12pt 0 6pt;}
-	h3 {font-size: 12pt; color: rgb(80, 33, 118); margin: 12pt 0 6pt; padding-left: .75em;}
+	h2, h3 {margin: 12pt 0 6pt;}
+	h3 {padding-left: .75em;}
 	table, ul {padding: 0 0 6pt 1.5em;}
 	li ul {padding-bottom: 0;}
 	td li, li li {list-style: circle;}
