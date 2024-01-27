@@ -19,3 +19,4 @@ p {margin: 8pt 0;}
 .next {float: right; text-align: right;}
 .blogpost {padding-bottom: 9pt; margin-left: 1em;}
 .icon {display: inline; float: left; position: relative; width: 2em; margin-left: -2.5em; text-align: right;}
+[role=doc-endnote] {padding: 0;}
