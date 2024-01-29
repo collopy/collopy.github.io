@@ -17,7 +17,7 @@
     {% endcapture %}
     {% assign sortedtags = tags | split:' ' | sort_natural %}
     {% for tag in sortedtags %}
-      <link type="application/atom+xml" rel="alternate" href="https://collopy.net/feed/tag/{{ tag | slugify: 'pretty' }}.xml" title="Peter Sachs Collopy: {{ tag }}" />
+      <link type="application/atom+xml" rel="alternate" href="https://collopy.net/feed/subjects/{{ tag | slugify: 'pretty' }}.xml" title="Peter Sachs Collopy: {{ tag }}" />
     {% endfor %}
     
     <title>{{ page.title }}</title>
