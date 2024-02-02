@@ -1,8 +1,9 @@
-{% include head.html %}<link type="application/atom+xml" rel="alternate" href="https://collopy.net/feed/{{ page.autopages.display_name | slugify: 'pretty' }}.xml" title="Peter Sachs Collopy: {{ page.autopages.display_name }}" />
-	<title>{% include category_title.html %}</title>
+{% include head.html %}
+	<link type="application/atom+xml" rel="alternate" href="https://collopy.net/feed/{{ page.autopages.display_name | slugify: 'pretty' }}.xml" title="{{ site.title }}: {{ page.autopages.display_name }}" />
+	<title>{{ site.title }}: {% include category_title.html %}</title>
   </head>
   <body>
-	<h1>{% include category_title.html %}</h1>
+	<h1>{{ site.title }}: {% include category_title.html %}</h1>
 	{% include nav.html %}
 	{% include paginator.html %}
   </body>

@@ -1,5 +1,5 @@
 {% include head.html %}
-    <link type="application/atom+xml" rel="alternate" href="https://collopy.net/feed/tag/{{ page.autopages.display_name | slugify: 'pretty' }}.xml" title="Peter Sachs Collopy: {{ page.autopages.display_name }}" />
+    <link type="application/atom+xml" rel="alternate" href="https://collopy.net/feed/subjects/{{ page.autopages.display_name | slugify: 'pretty' }}.xml" title="{{ site.title }}: {{ page.autopages.display_name }}" />
     <title>{% include tag_title.html %}</title>
   </head>
   <body>

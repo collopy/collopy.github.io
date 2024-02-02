@@ -1,0 +1,13 @@
+{% include head.html %}
+	<title>{{ site.title }}: {{ page.date | date: "%Y" }}</title>
+  </head>
+  <body>
+	<h1>{{ site.title }}: {{ page.date | date: "%Y" }}</h1>
+	{% include nav.html %}
+	<ul class="posts">
+	{% for post in page.posts %}
+	  {% include blogpost.html %}
+	{% endfor %}
+	</ul>
+  </body>
+</html>

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="metadata">
-  {{ page.date | date: "%Y" }}{% if page.format %}, {{ page.format }}{% endif %}{% if page.collaborators %}, with {{ page.collaborators }}{% endif %}{% if page.publication %}, {% if page.publication-link %}<a href="{{ page.publication-link }}">{% endif %}<cite>{{ page.publication }}</cite>{% if page.publication-link %}</a>{% endif %}{% if page.publisher %} ({{ page.publisher }}){% endif %}{% elsif page.venue %}, {% if page.venue-link %}<a href="{{ page.venue-link }}">{% endif %}{{ page.venue }}{% if page.venue-link %}</a>{% endif %}{% endif %}
+  {% if page.format %}{{ page.format }} by {% endif %}{% if page.collaborators %}{{ page.collaborators }} and {% endif %}{{ site.title }}{% if page.publication %}, {% if page.publication-link %}<a href="{{ page.publication-link }}">{% endif %}<cite>{{ page.publication }}</cite>{% if page.publication-link %}</a>{% endif %}{% if page.publisher %} ({{ page.publisher }}){% endif %}{% elsif page.venue %}, {% if page.venue-link %}<a href="{{ page.venue-link }}">{% endif %}{{ page.venue }}{% if page.venue-link %}</a>{% endif %}{% endif %}, {{ page.date | date: "%Y" }}
 </div>
 
 {{ content }}

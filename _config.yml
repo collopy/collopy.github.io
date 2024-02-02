@@ -10,6 +10,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-archives
   
 feed:
   categories:
@@ -37,3 +38,7 @@ autopages:
     title: 'On :tag'
     slugify:
       mode: 'pretty'
+
+jekyll-archives:
+  enabled:
+    - year
