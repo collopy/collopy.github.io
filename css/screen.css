@@ -1,5 +1,5 @@
 html {background-color: rgb(45, 48, 64);}
-body {max-width: 800px;}
+body {max-width: 800px; min-height: 130px;}
 
 a:link {color: darkblue; text-decoration: underline;}
 a:visited, .metadata {color: rgb(80, 80, 80);}
