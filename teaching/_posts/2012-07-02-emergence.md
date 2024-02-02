@@ -2,7 +2,7 @@
 layout: post
 title: Emergence of Modern Science
 format: syllabus
-collaborators: Jason Oakes
+collaborators: [Jason Oakes]
 venue: University of Pennsylvania
 link: /teaching/2012/stsc001.pdf
 medium: text

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="metadata">
-  {% if page.format %}{{ page.format }} by {% endif %}{% if page.collaborators %}{{ page.collaborators }} and {% endif %}{{ site.title }}{% if page.publication %}, {% if page.publication-link %}<a href="{{ page.publication-link }}">{% endif %}<cite>{{ page.publication }}</cite>{% if page.publication-link %}</a>{% endif %}{% if page.publisher %} ({{ page.publisher }}){% endif %}{% elsif page.venue %}, {% if page.venue-link %}<a href="{{ page.venue-link }}">{% endif %}{{ page.venue }}{% if page.venue-link %}</a>{% endif %}{% endif %}, {{ page.date | date: "%Y" }}
+  {% if page.format %}{{ page.format }} by {% endif %}{% if page.collaborators %}{% for collaborator in page.collaborators %}{{ collaborator }}{% if page.collaborators.size > 1 %}, {% endif %}{% endfor %} and {% endif %}{{ site.author }}{% if page.publication %}, {% if page.publication-link %}<a href="{{ page.publication-link }}">{% endif %}<cite>{{ page.publication }}</cite>{% if page.publication-link %}</a>{% endif %}{% if page.publisher %} ({{ page.publisher }}){% endif %}{% elsif page.venue %}, {% if page.venue-link %}<a href="{{ page.venue-link }}">{% endif %}{{ page.venue }}{% if page.venue-link %}</a>{% endif %}{% endif %}, {{ page.date | date: "%Y" }}
 </div>
 
 {{ content }}
@@ -20,7 +20,7 @@ layout: default
   </div>
 {% endif %}
 
-{% if page.tags.size > 0 %}
+{% if page.tags %}
   {% assign tags = page.tags | sort_natural %}
   <div class="metadata"">
     Subject{% if tags.size > 1 %}s{% endif %}:
@@ -30,7 +30,7 @@ layout: default
   </div>
 {% endif %}
 
-{% if page.categories.size > 0 %}
+{% if page.categories %}
   {% assign categories = page.categories | sort_natural %}
   <div class="metadata"">
     Categor{% if categories.size > 1 %}ies{% else %}y{% endif %}:

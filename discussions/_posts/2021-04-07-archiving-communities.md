@@ -1,9 +1,7 @@
 ---
 layout: post
 title: "Archiving Communities of Resilience and Resistance in Caltech’s Present &amp; Past"
-format: discussion
-collaborators: Nivetha Karthikeyan, Rochelle Diamond, Edray Goins, and Melany Hunt
-author: Nivetha Karthikeyan, Peter Sachs Collopy, Rochelle Diamond, Edray Goins, Melany Hunt
+collaborators: [Nivetha Karthikeyan, Rochelle Diamond, Edray Goins, Melany Hunt]
 venue: Caltech Alumni Association
 link: "https://www.youtube.com/watch?v=YfC2GqSfDlU&list=PLdAuZfFi4N-lmxhTy5RhuPDEo5G2PEbTr"
 medium: video
