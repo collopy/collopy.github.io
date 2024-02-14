@@ -5,7 +5,7 @@ publication: Greatbear Analogue and Digital Media Tape Blog
 collaborators: [Deborah Withers]
 link: "https://thegreatbear.net/video-tape/video-technologies-consciousness/"
 medium: text
-tags: [video, consciousness, visual culture, analog/digital, media, technology, counterculture]
+tags: [video, consciousness, visual culture, analog/digital dichotomies, media, technology, counterculture]
 ---
 
 **We were really struck by your description of early video as a technology of consciousness. Can you tell us a bit more about this idea? Did early users of portable video technology use video in order to witness events?**
