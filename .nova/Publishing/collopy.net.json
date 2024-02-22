@@ -1,15 +1,5 @@
 {
   "identifier" : "282C898E-7322-4E74-B9B5-AF3C16C086B2",
-  "ignoredFilePatterns" : [
-    "_site\/teaching\/2012\/stsc001.pdf",
-    "_site\/teaching\/2013\/cyberculture\/readings",
-    "_site\/teaching\/2014\/technology\/readings",
-    "_site\/teaching\/2016\/coldwar\/readings",
-    "_site\/teaching\/2017\/evolution\/readings",
-    "_site\/teaching\/2017\/evolution\/approaching.pdf",
-    "_site\/writing\/publications",
-    "_site\/images"
-  ],
   "localPath" : "_site",
   "remotePath" : "\/home\/collopy\/collopy.net",
   "server" : "collopy.net",
