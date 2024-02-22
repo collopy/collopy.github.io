@@ -3,6 +3,8 @@ baseurl: ""
 title: "Peter Sachs Collopy"
 author: "Peter Sachs Collopy"
 
+incremental: true
+
 excerpt_separator: <!--more-->
 permalink: /:categories/:year/:title/
 
