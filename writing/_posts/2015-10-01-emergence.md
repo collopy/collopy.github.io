@@ -5,7 +5,7 @@ format: book review
 publication: Technology and Culture
 volume: 56
 number: 4
-pages: 1008–1010
+pages: 1008–10
 review-editors: Kathy High, Sherry Miller Hocking, and Mona Jimenez
 link: /writing/publications/The%20Emergence%20of%20Video%20Processing%20Tools.pdf
 medium: text

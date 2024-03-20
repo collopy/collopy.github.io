@@ -5,7 +5,7 @@ format: book review
 publication: Technology and Culture
 volume: 61
 number: 2
-pages: 697–698
+pages: 697–98
 review-editors: Gregg Mitman and Kelley Wilder
 link: /writing/publications/Documenting%20the%20World.pdf
 medium: text

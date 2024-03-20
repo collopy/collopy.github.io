@@ -4,7 +4,7 @@ title: "Race Relationships: Collegiality and Demarcation in Physical Anthropolog
 publication: Journal of the History of the Behavioral Sciences
 volume: 51
 number: 3
-pages: 237–260
+pages: 237–60
 link: "/writing/publications/Race%20Relationships.pdf"
 gs: 8754565656821644246
 medium: text
