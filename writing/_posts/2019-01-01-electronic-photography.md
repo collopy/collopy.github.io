@@ -7,7 +7,6 @@ volume: 3
 pages: 26–35
 translator: Jean-François Allain
 link: "http://resolver.caltech.edu/CaltechAUTHORS:20190831-153442412"
-gs: 13943537363667776638
 medium: text
 tags: [technology, media, video, photography, visual culture, analog/digital, engineering]
 ---
