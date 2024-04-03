@@ -37,11 +37,11 @@ h3:first-child {margin-top: 0;}
 	#rbscouses {transition: max-height .25s;}
 	
 	/*Publications*/
-	#lavideo:hover #lavideoabstract, #racerelationships:hover #racerelationshipsabstract, #videosynthesizers:hover #videosynthesizersabstract, #lsd:hover #lsdabstract {max-height: 150px;}
-	#closedcircuit:hover #closedcircuitabstract, #revolution:hover #revolutionabstract, #wright:hover #wrightabstract {max-height: 300px;}
+	#lavideo:hover #lavideoabstract, #racerelationships:hover #racerelationshipsabstract, #videosynthesizers:hover #videosynthesizersabstract, #lsd:hover #lsdabstract, #closedcircuit:hover #closedcircuitabstract {max-height: 150px;}
 	
 	/*Exhibitions*/
-	#becoming:hover #becomingabstract, #mindseye:hover #mindseyeabstract {max-height: 300px;}
+	#becoming:hover #becomingabstract {max-height: 250px;}
+	#mindseye:hover #mindseyeabstract {max-height: 150px;}
 }
 
 @media print
