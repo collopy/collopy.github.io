@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Video and the Origins of Electronic Photography"
+title: "La vidéo et les origines de la photographie électronique"
 publication: "Transbordeur"
 link: https://transbordeur.ch/fr/2019/video-photographie-electronique/
 publication-link: "https://transbordeur.ch/fr/2019/"
