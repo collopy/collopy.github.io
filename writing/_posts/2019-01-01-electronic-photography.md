@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Video and the Origins of Electronic Photography"
-publication: "Transbordeur: Photographie histoire société"
+publication: "Transbordeur"
 publication-link: "https://transbordeur.ch/en/2019/"
 volume: 3
 pages: 26–35
