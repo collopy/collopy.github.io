@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="metadata">
-  {% if page.format %}{{ page.format }} by {% endif %}{% if page.collaborators %}{% for collaborator in page.collaborators %}{{ collaborator }}{% if page.collaborators.size > 1 %}, {% endif %}{% endfor %} and {% endif %}{{ site.author }}{% if page.publication %}, {% if page.publication-link %}<a href="{{ page.publication-link }}">{% endif %}<cite>{{ page.publication }}</cite>{% if page.publication-link %}</a>{% endif %}{% if page.publisher %} ({{ page.publisher }}){% endif %}{% elsif page.venue %}, {% if page.venue-link %}<a href="{{ page.venue-link }}">{% endif %}{{ page.venue }}{% if page.venue-link %}</a>{% endif %}{% endif %}, <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a>
+  {% if page.format %}{{ page.format }} by {% endif %}{% if page.collaborators %}{% for collaborator in page.collaborators %}{{ collaborator }}{% if page.collaborators.size > 1 %}, {% endif %}{% endfor %} and {% endif %}{{ site.author }}{% if page.translator %}, translated by {{ page.translator }}{% endif %}{% if page.publication %}, {% if page.publication-link %}<a href="{{ page.publication-link }}">{% endif %}<cite>{{ page.publication }}</cite>{% if page.publication-link %}</a>{% endif %}{% if page.publisher %} ({{ page.publisher }}){% endif %}{% elsif page.venue %}, {% if page.venue-link %}<a href="{{ page.venue-link }}">{% endif %}{{ page.venue }}{% if page.venue-link %}</a>{% endif %}{% endif %}, <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a>
 </div>
 
 {{ content }}
