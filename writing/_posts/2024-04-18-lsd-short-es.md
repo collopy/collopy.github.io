@@ -3,6 +3,7 @@ layout: post
 title: "“El vídeo es tan poderoso como el LSD”: Electrónica y psicodélicos como tecnologías de la conciencia"
 venue: Chacruna Latinoamérica
 format: excerpt
+translator: Ibrahim Gabriell
 link: "https://chacruna-la.org/lsd-electronica-tecnologias-conciencia/"
 medium: text
 tags: [technology, media, video, psychiatry, consciousness, psychedelics, visual culture, mind sciences, science, human sciences, medicine, engineering, counterculture, drugs, psychology]
