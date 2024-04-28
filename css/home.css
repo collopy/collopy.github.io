@@ -1,2 +1,15 @@
-p, table {font-size: larger; margin: 40px auto 20px; max-width: 490px;}
+p {font-size: larger; margin: 40px auto 20px; max-width: 490px;}
 td {padding: 3px 5px;}
+.medium {text-align: right; vertical-align: top; width: 40%;}
+.address {font-weight: bold;}
+
+@media (max-width: 500px)
+{
+	#addresses table {margin: 15px 0; width: 100%;}
+}
+
+@media (min-width: 500px)
+{
+	#left {float: left; width: 50%; padding: 40px 10px 0 0;}
+	#right {padding: 40px 0 10px 10px;}
+}
