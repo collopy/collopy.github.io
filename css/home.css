@@ -1,1 +1,2 @@
-p {font-size: larger; margin: 40px auto 20px; max-width: 490px;}
+p, table {font-size: larger; margin: 40px auto 20px; max-width: 490px;}
+td {padding: 3px 5px;}
