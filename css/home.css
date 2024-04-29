@@ -1,11 +1,10 @@
 p {font-size: larger; margin: 40px auto 20px; max-width: 490px;}
-table {padding-top: 20px; margin: 0 auto;}
+table {padding: 20px 10px 10px; margin: 0 auto;}
 td {padding: 3px 5px;}
 .medium {text-align: right; vertical-align: top;}
 .address {font-weight: bold;}
 
-@media (min-width: 920px)
+@media (min-width: 800px)
 {
-	#left {float: left; width: 50%; padding-right: 10px;}
-	#right {padding-left: 10px;}
+	#left {float: left;}
 }
