@@ -5,5 +5,5 @@ venue: Caltech
 collaborators: [Erik Conway, Fraser MacDonald]
 link: "https://www.youtube.com/watch?v=JhzLWaOEIvk&list=PLdAuZfFi4N-lmxhTy5RhuPDEo5G2PEbTr"
 medium: video
-tags: Caltech radicalism archives politics technology technopolitics engineering
+tags: Caltech radicalism archives politics technology technopolitics engineering socialism
 ---
