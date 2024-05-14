@@ -17,6 +17,7 @@ p {margin: 8pt 0;}
 .previous, .next {width: 50%; margin-top: -5px; font-weight: bold;}
 .previous {float: left;}
 .next {float: right; text-align: right;}
+.feed {clear: both; text-align: center;}
 .blogpost {padding-bottom: 9pt; margin-left: 1em;}
 .icon {display: inline; float: left; position: relative; width: 2em; margin-left: -2.5em; text-align: right;}
 [role=doc-endnote] {padding: 0;}
