@@ -4,7 +4,7 @@ title: "Chemistry Comes to Caltech"
 venue: "Caltech"
 link: "https://www.youtube.com/watch?v=Z4Kz6Saiauw&t=2m30s"
 medium: video
-tags: Caltech chemistry universities laboratories
+tags: Caltech chemistry universities laboratories education
 ---
 
 As we mentioned in our presentations two weeks ago, the Throop of the 1910s and the Caltech of the 1920s were deeply shaped by astrophysicist George Ellery Hale’s vision for the institution. Hale came to Pasadena to found and direct Mount Wilson Observatory, but had just as much influence as a trustee of the local college.

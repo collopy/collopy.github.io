@@ -4,7 +4,7 @@ title: "Influenza Comes to Throop"
 venue: "Caltech"
 link: "https://www.youtube.com/watch?v=qqMZagMAMC0&t=18m19s"
 medium: video
-tags: Caltech universities medicine
+tags: Caltech universities medicine education
 ---
 
 Like many institutions, Throop College of Technology confronted the 1918 flu in the context of mobilization for World War I. Indeed, throughout the United States and Europe, the context of war shaped people’s experience of the epidemic so deeply that after, many only described or wrote about the disease as an aspect of wartime.
