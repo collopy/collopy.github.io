@@ -12,6 +12,7 @@ p {margin: 8pt 0;}
 .newmodule {padding-top: 12pt;}
 .box {margin: .5em 1em; padding: .5em; border: 1px solid black;}
 .metadata {margin: 12px 0;}
+.citation {margin: 12px 0 12px 2em;}
 .reference {font-size: 8pt;}
 .video {aspect-ratio: 16 / 9; width: 100%;}
 .previous, .next {width: 50%; margin-top: -5px; font-weight: bold;}

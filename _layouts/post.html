@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div class="metadata">
+<div class="citation">
+  <span class="icon">{% if page.medium == "text" %}📄{% elsif page.medium == "chapter" %}📖{% elsif page.medium == "book" %}📕{% elsif page.medium == "thesis" %}🎓{% elsif page.medium == "video" %}📺{% elsif page.medium == "audio" %}🎧{% elsif page.medium == "exhibit" %}🖼️{% elsif page.medium == "syllabus" %}📚{% endif %}</span>
   {%- if page.format %}
     {{ page.format }} by
   {% endif -%}
@@ -80,7 +81,7 @@ layout: default
 
 {%- if page.gs -%}
   <div class="metadata">
-    <a href="https://scholar.google.com/scholar?cites={{ page.gs }}">citations</a>
+    [<a href="https://scholar.google.com/scholar?cites={{ page.gs }}">citations</a>]
   </div>
 {%- endif -%}
 
