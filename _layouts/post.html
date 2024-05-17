@@ -26,7 +26,7 @@ layout: default
   
   {%- if page.publication -%}
     ,
-    {%- if page.medium == "chapter" %}
+    {% if page.medium == "chapter" %}
       in
     {% endif -%}
     
