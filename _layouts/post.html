@@ -3,39 +3,103 @@ layout: default
 ---
 
 <div class="metadata">
-  {% if page.format %}{{ page.format }} by {% endif %}{% if page.collaborators %}{% for collaborator in page.collaborators %}{{ collaborator }}{% if page.collaborators.size > 1 %}, {% endif %}{% endfor %} and {% endif %}{{ site.author }}{% if page.translator %}, translated by {{ page.translator }}{% endif %}{% if page.publication %}, {% if page.publication-link %}<a href="{{ page.publication-link }}">{% endif %}<cite>{{ page.publication }}</cite>{% if page.publication-link %}</a>{% endif %}{% if page.publisher %} ({{ page.publisher }}){% endif %}{% elsif page.venue %}, {% if page.venue-link %}<a href="{{ page.venue-link }}">{% endif %}{{ page.venue }}{% if page.venue-link %}</a>{% endif %}{% endif %}, {% if page.medium != "book" %}{{ page.date | date: "%B %e" }},{% endif %} <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a>
+  {%- if page.format %}
+    {{ page.format }} by
+  {% endif -%}
+  
+  {%- if page.collaborators -%}
+    {%- for collaborator in page.collaborators -%}
+      {{ collaborator }}
+      {%- if page.collaborators.size > 1 -%}
+        ,
+      {% endif -%}
+    {%- endfor %}
+    and
+  {% endif -%}
+  
+  {{ site.author }}
+  
+  {%- if page.translator -%}
+    , translated by {{ page.translator }}
+  {%- endif -%}
+  
+  {%- if page.publication -%}
+    ,
+    {%- if page.medium == "chapter" %}
+      in
+    {% endif -%}
+    
+    {% if page.publication-link -%}
+      <a href="{{ page.publication-link }}">
+    {%- endif -%}
+    <cite>{{ page.publication }}</cite>
+    {%- if page.publication-link -%}
+      </a>
+    {%- endif -%}
+  {%- elsif page.venue -%}
+    ,
+    {% if page.venue-link -%}
+      <a href="{{ page.venue-link }}">
+    {%- endif -%}
+    {{ page.venue }}
+    {%- if page.venue-link -%}
+      </a>
+    {%- endif -%}
+  {%- endif -%}
+  
+  {%- if page.editors -%}
+    , edited by {{ page.editors }}
+  {%- endif -%}
+  
+  {%- if page.medium == "book" or page.medium == "chapter" %}
+    ({{ page.publisher }},
+  {% elsif page.volume %}
+    {{ page.volume }} (
+  {%- else -%}
+    , {{ page.date | date: "%B %e" }},
+  {% endif -%}
+
+  <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a>
+
+  {%- if page.medium == "book" or page.medium == "chapter" or page.volume -%}
+    )
+  {%- endif -%}
+  
+  {%- if page.pages -%}
+    , {{ page.pages }}
+  {%- endif -%}
 </div>
 
 {{ content }}
 
-{% if page.link %}
+{%- if page.link -%}
   <div class="metadata">
     <a href="{{ page.link }}">more</a>
   </div>
-{% endif %}
+{%- endif -%}
 
-{% if page.gs %}
+{%- if page.gs -%}
   <div class="metadata">
     <a href="https://scholar.google.com/scholar?cites={{ page.gs }}">citations</a>
   </div>
-{% endif %}
+{%- endif -%}
 
-{% if page.tags %}
-  {% assign tags = page.tags | sort_natural %}
+{%- if page.tags -%}
+  {%- assign tags = page.tags | sort_natural -%}
   <div class="metadata"">
-    Subject{% if tags.size > 1 %}s{% endif %}:
+    Subject{%- if tags.size > 1 -%}s{%- endif -%}:
     {% for tag in tags %}
-      <a href="/subjects/{{tag | slugify }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
+      <a href="/subjects/{{tag | slugify }}">{{ tag }}</a>{%- unless forloop.last -%}, {%- endunless -%}
+    {%- endfor -%}
   </div>
-{% endif %}
+{%- endif -%}
 
-{% if page.categories %}
-  {% assign categories = page.categories | sort_natural %}
+{%- if page.categories -%}
+  {%- assign categories = page.categories | sort_natural -%}
   <div class="metadata"">
-    Categor{% if categories.size > 1 %}ies{% else %}y{% endif %}:
+    Categor{%- if categories.size > 1 -%}ies{%- else -%}y{%- endif -%}:
     {% for category in categories %}
-      <a href="/{{category | slugify }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
+      <a href="/{{category | slugify }}">{{ category }}</a>{%- unless forloop.last -%}, {%- endunless -%}
+    {%- endfor -%}
   </div>
-{% endif %}
+{%- endif -%}

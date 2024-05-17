@@ -5,7 +5,7 @@ format: syllabus
 collaborators: [Jason Oakes]
 venue: University of Pennsylvania
 link: /teaching/2012/stsc001.pdf
-medium: class
+medium: syllabus
 tags: science physics chemistry biology geology astronomy evolution genetics war philosophy
 ---
 

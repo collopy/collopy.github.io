@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Crossing Over: Art and Science at Caltech, 1920–2020"
+title: "<cite>Crossing Over: Art and Science at Caltech, 1920–2020</cite>"
 venue: "Caltech"
 collaborators: [Claudia Bohn-Spector]
 link: "https://pst.art/en/exhibitions/crossing-over"

@@ -8,7 +8,7 @@ publisher: Bloomsbury
 pages: 108–18
 link: "/writing/publications/Video%20and%20the%20Self.pdf"
 gs: 2016804385568910733
-medium: book
+medium: chapter
 tags: [technology, media, video, cybernetics, psychiatry, consciousness, visual culture, mind sciences, human sciences, medicine, gender, psychology]
 ---
 
