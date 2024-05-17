@@ -72,5 +72,5 @@ h3:first-child {margin-top: 0;}
 
 @media screen and (max-width: 400px)
 {
-	#education {clear: right;}
+	#appointments {clear: right;}
 }
