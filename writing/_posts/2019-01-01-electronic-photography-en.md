@@ -2,7 +2,7 @@
 layout: post
 title: "Video and the Origins of Electronic Photography"
 link: "http://resolver.caltech.edu/CaltechAUTHORS:20190831-153442412"
-medium: text
+medium: article
 tags: [technology, media, video, photography, visual culture, analog/digital, engineering]
 ---
 

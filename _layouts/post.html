@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="citation">
-  <span class="icon">{% if page.medium == "text" %}📄{% elsif page.medium == "chapter" %}📖{% elsif page.medium == "book" %}📕{% elsif page.medium == "thesis" %}🎓{% elsif page.medium == "video" %}📺{% elsif page.medium == "audio" %}🎧{% elsif page.medium == "exhibit" %}🖼️{% elsif page.medium == "syllabus" %}📚{% endif %}</span>
+  <span class="icon">{% if page.medium == "text" %}📄{% elsif page.medium == "chapter" or page.medium == "article" %}📖{% elsif page.medium == "book" %}📕{% elsif page.medium == "thesis" %}🎓{% elsif page.medium == "video" %}📺{% elsif page.medium == "audio" %}🎧{% elsif page.medium == "exhibit" %}🖼️{% elsif page.medium == "syllabus" %}📚{% endif %}</span>
   {%- if page.format %}
     {{ page.format }} by
   {% endif -%}

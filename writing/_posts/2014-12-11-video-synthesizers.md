@@ -7,7 +7,7 @@ number: 4
 pages: 74–86
 link: "/writing/publications/Video%20Synthesizers.pdf"
 gs: 5700856085013442869
-medium: text
+medium: article
 tags: [technology, media, computing, video, synthesizers, consciousness, psychedelics, art, visual culture, analog/digital, engineering, counterculture, drugs, utopianism]
 ---
 

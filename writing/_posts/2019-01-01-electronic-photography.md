@@ -7,7 +7,7 @@ publication-link: "https://transbordeur.ch/fr/2019/"
 volume: 3
 pages: 26–35
 translator: Jean-François Allain
-medium: text
+medium: article
 tags: [technology, media, video, photography, visual culture, analog/digital, engineering]
 ---
 
