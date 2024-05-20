@@ -8,7 +8,7 @@ issue: 2
 pages: 67–70
 review-authors: Ronald R. Kline
 link: /writing/publications/The%20Cybernetics%20Moment.pdf
-medium: text
+medium: article
 tags: science technology media computing cybernetics engineering
 ---
 

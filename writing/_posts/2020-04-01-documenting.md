@@ -8,7 +8,7 @@ number: 2
 pages: 697–98
 review-editors: Gregg Mitman and Kelley Wilder
 link: /writing/publications/Documenting%20the%20World.pdf
-medium: text
+medium: article
 tags: [science, technology, media, visual culture, film, photography, human sciences]
 ---
 

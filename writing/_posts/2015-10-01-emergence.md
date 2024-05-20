@@ -8,7 +8,7 @@ number: 4
 pages: 1008–10
 review-editors: Kathy High, Sherry Miller Hocking, and Mona Jimenez
 link: /writing/publications/The%20Emergence%20of%20Video%20Processing%20Tools.pdf
-medium: text
+medium: article
 tags: [technology, media, visual culture, art, video, synthesizers, engineering]
 ---
 
