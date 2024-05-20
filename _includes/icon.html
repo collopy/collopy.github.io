@@ -1,0 +1,24 @@
+{% if post %}
+	{% assign medium = post.medium %}
+{% else %}
+	{% assign medium = page.medium %}
+{% endif %}
+
+{% case medium %}
+	{% when "text" %}
+		📄
+	{% when "chapter", "article" %}
+		📖
+	{% when "book" %}
+		📕
+	{% when "thesis" %}
+		🎓
+	{% when "video" %}
+		📺
+	{% when "audio" %}
+		🎧
+	{% when "exhibit" %}
+		🖼️
+	{% when "syllabus" %}
+		📚
+{% endcase %}
