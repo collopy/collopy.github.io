@@ -5,6 +5,7 @@ venue: University of Pennsylvania
 link: "https://repository.upenn.edu/handle/20.500.14332/28500"
 gs: 13081425728037104005
 medium: thesis
+format: dissertation
 tags: [politics, radicalism, technology, media, consciousness, cybernetics, video, art, visual culture, analog/digital, synthesizers, psychedelics, evolution, psychiatry, mind sciences, war, technopolitics, science, human sciences, medicine, engineering, counterculture, drugs, anthropology, religion, Christianity, race, film, psychology, utopianism, communism, fascism, socialism, philosophy]
 ---
 
