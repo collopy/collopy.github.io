@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "Video and the Self: Closed Circuit | Feedback | Narcissism"
-publication: "Video Theories: A Transdisciplinary Reader"
-publication-link: "https://www.bloomsbury.com/us/video-theories-9781501354083/"
-editors: Dieter Daniels and Jan Thoben
-publisher: Bloomsbury
-pages: 108–18
-link: "/writing/publications/Video%20and%20the%20Self.pdf"
-gs: 2016804385568910733
+title: "Between Paradigms: Video and Art Therapy"
+publication: "Modernism, Art, Therapy"
+publication-link: "https://aaeportal.com/publications/-32140/modernism-art-therapy"
+editors: Suzanne Hudson and Tanya Sheehan
+publisher: Yale University Press
+link: "https://aaeportal.com/?id=-32155"
 medium: chapter
-tags: [technology, media, video, cybernetics, psychiatry, consciousness, visual culture, mind sciences, human sciences, medicine, gender, psychology, art]
+tags: [technology, media, video, cybernetics, psychiatry, consciousness, visual culture, mind sciences, human sciences, medicine, gender, psychology, art, counterculture, modernism, postmodernism, drugs, anarchism, radicalism, education, politics]
 ---
 
 The introduction to a chapter which I guest edited:
