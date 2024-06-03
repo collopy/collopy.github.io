@@ -4,7 +4,7 @@ title: "The Revolution Will Be Videotaped: Making a Technology of Consciousness 
 publication: Technology’s Stories
 link: "https://vimeo.com/102347583"
 medium: video
-tags: [video, consciousness, visual culture, cybernetics, media, technology, counterculture]
+tags: [video, consciousness, visual culture, cybernetics, media, technology, counterculture, art]
 ---
 
 In the 1960s, video recording technology became portable. Tools that had previously been available only in television studios turned up in art galleries, in psychiatric hospitals, and in the Black Panther Party. This cultural portability was facilitated by a material portability: the technology got smaller, it got cheaper, it got lighter. For instance, this 1970 Sony camera is part of a piece of equipment called a portapak. Between the camera and the deck it was a complete video production studio that was light enough for somebody to carry around and was battery-powered. These recorders used half-inch open reel magnetic tape.
