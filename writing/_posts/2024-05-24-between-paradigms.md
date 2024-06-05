@@ -2,7 +2,7 @@
 layout: post
 title: "Between Paradigms: Video and Art Therapy"
 publication: "Modernism, Art, Therapy"
-publication-link: "https://aaeportal.com/publications/-32140/modernism-art-therapy"
+publication-link: "https://aaeportal.com/?id=-32140"
 editors: Suzanne Hudson and Tanya Sheehan
 publisher: Yale University Press
 link: "/writing/publications/Between%20Paradigms.pdf"
