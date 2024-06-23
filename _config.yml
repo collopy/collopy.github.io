@@ -17,6 +17,7 @@ plugins:
 feed:
   categories:
     - discussions
+    - editing
     - exhibits
     - presentations
     - teaching
