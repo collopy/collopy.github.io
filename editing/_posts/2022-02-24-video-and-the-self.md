@@ -2,18 +2,16 @@
 layout: post
 title: "Video and the Self: Closed Circuit | Feedback | Narcissism"
 publication: "Video Theories: A Transdisciplinary Reader"
-publication-link: "https://www.bloomsbury.com/us/video-theories-9781501354083/"
+link: "https://www.bloomsbury.com/us/video-theories-9781501354083/"
 editors: Dieter Daniels and Jan Thoben
 publisher: Bloomsbury
-pages: 108–18
-link: "/writing/publications/Video%20and%20the%20Self.pdf"
-gs: 2016804385568910733
+pages: 108–51
 medium: chapter
-format: chapter introduction
+format: edited chapter
 tags: [technology, media, video, cybernetics, psychiatry, consciousness, visual culture, mind sciences, human sciences, medicine, gender, psychology, art]
 ---
 
-The introduction to a chapter which I guest edited:
+A chapter which I guest edited:
 
 The relationship between video and the self has been one of the central concerns of video theory. Prominent artists such as Vito Acconci, Dan Graham, Joan Jonas, and Bruce Nauman have organized their artistic practice around mediated self-observation, either using video to document and complicate their own expressions of self or building installations with which viewers can see and experience themselves in new ways. Such self-portraiture is the subject of the most widely cited essay in this volume, Rosalind Krauss’s 1976 “Video: The Aesthetics of Narcissism,” and of several essays responding to it.
 
