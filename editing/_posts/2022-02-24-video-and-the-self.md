@@ -2,7 +2,7 @@
 layout: post
 title: "Video and the Self: Closed Circuit | Feedback | Narcissism"
 publication: "Video Theories: A Transdisciplinary Reader"
-link: "https://www.bloomsbury.com/us/video-theories-9781501354083/"
+publication-link: "https://www.bloomsbury.com/us/video-theories-9781501354083/"
 editors: Dieter Daniels and Jan Thoben
 publisher: Bloomsbury
 pages: 108–51
