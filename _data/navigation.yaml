@@ -1,9 +1,5 @@
 - name: Home
   link: /
-- name: Publications
-  link: /publications/
-- name: Teaching
-  link: /teaching/
 - name: Subjects
   link: /subjects/
 - name: Everything
