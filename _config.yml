@@ -22,6 +22,7 @@ feed:
     - presentations
     - teaching
     - writing
+    - major
   posts_limit: 100
   tags:
     path: "/feed/subjects/"

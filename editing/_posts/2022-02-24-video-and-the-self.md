@@ -9,6 +9,15 @@ pages: 108–51
 medium: chapter
 format: edited chapter
 tags: [technology, media, video, cybernetics, psychiatry, consciousness, visual culture, mind sciences, human sciences, medicine, gender, psychology, art]
+category: works
+
+alt-title: "chapter introduction"
+alt-publication: "Video Theories"
+alt-medium: chapter
+alt-pages: 108–18
+alt-link: "/writing/publications/Video%20and%20the%20Self.pdf"
+alt-gs: 2016804385568910733
+alt-highlight: yes
 ---
 
 A chapter which I guest edited:

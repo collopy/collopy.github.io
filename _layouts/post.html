@@ -4,11 +4,10 @@ layout: default
 
 <div class="citation">
   {% include icon.html %}
-  {%- if page.format %}
-    {{ page.format }} by
-  {% endif -%}
   
-  {%- if page.collaborators -%}
+  {%- if page.authors -%}
+    {{ page.authors }},  
+  {%- elsif page.collaborators -%}
     {%- for collaborator in page.collaborators -%}
       {{ collaborator }}
       {%- if page.collaborators.size > 1 -%}
@@ -18,7 +17,21 @@ layout: default
     and
   {% endif -%}
   
-  {{ site.author }}
+  {%- unless page.authors -%}
+    {{ site.author }},
+  {% endunless %}
+  
+  {% if page.link -%}
+    <a href="{{ page.link }}">
+  {%- endif -%}
+  {{ page.title }}
+  {%- if page.link -%}
+    </a>
+  {%- endif -%}
+  
+  {%- if page.format -%}
+    , {{ page.format }}
+  {%- endif -%}
   
   {%- if page.translator -%}
     , translated by {{ page.translator }}
@@ -52,7 +65,7 @@ layout: default
     , edited by {{ page.editors }}
   {%- endif -%}
   
-  {%- if page.medium == "book" or page.medium == "chapter" %}
+  {%- if page.publisher %}
     ({{ page.publisher }},
   {% elsif page.volume %}
     {{ page.volume }} (
@@ -71,17 +84,101 @@ layout: default
   {%- endif -%}
 </div>
 
-{{ content }}
+{% if page.alt-title %}
+<div class="citation">
+  {% include alt-icon.html %}
+  
+  {%- if page.alt-authors -%}
+    {{ page.alt-authors }},  
+  {%- elsif page.alt-collaborators -%}
+    {%- for collaborator in page.alt-collaborators -%}
+      {{ collaborator }}
+      {%- if page.alt-collaborators.size > 1 -%}
+        ,
+      {% endif -%}
+    {%- endfor %}
+    and
+  {% endif -%}
+  
+  {%- unless page.alt-authors -%}
+    {{ site.author }},
+  {% endunless %}
+  
+  {% if page.alt-link -%}
+    <a href="{{ page.alt-link }}">
+  {%- endif -%}
+  {{ page.alt-title }}
+  {%- if page.alt-link -%}
+    </a>
+  {%- endif -%}
+  
+  {%- if page.alt-format -%}
+    , {{ page.alt-format }}
+  {%- endif -%}
+  
+  {%- if page.alt-translator -%}
+    , translated by {{ page.alt-translator }}
+  {%- endif -%}
+  
+  {%- if page.alt-publication -%}
+    ,
+    {% if page.alt-medium == "chapter" %}
+      in
+    {% endif -%}
+    
+    {% if page.alt-publication-link -%}
+      <a href="{{ page.alt-publication-link }}">
+    {%- endif -%}
+    <cite>{{ page.alt-publication }}</cite>
+    {%- if page.alt-publication-link -%}
+      </a>
+    {%- endif -%}
+  {%- elsif page.alt-venue -%}
+    ,
+    {% if page.alt-venue-link -%}
+      <a href="{{ page.alt-venue-link }}">
+    {%- endif -%}
+    {{ page.alt-venue }}
+    {%- if page.alt-venue-link -%}
+      </a>
+    {%- endif -%}
+  {%- endif -%}
+  
+  {%- if page.alt-editors -%}
+    , edited by {{ page.alt-editors }}
+  {%- endif -%}
+  
+  {%- if page.alt-publisher %}
+    ({{ page.alt-publisher }},
+  {% elsif page.alt-volume %}
+    {{ page.alt-volume }} (
+  {%- elsif page.alt-date -%}
+    , {{ page.alt-date | date: "%B %e" }},
+  {% endif -%}
 
-{%- if page.link -%}
-  <div class="metadata">
-    <a href="{{ page.link }}">more</a>
-  </div>
-{%- endif -%}
+  <a href="/{{ page.alt-date | date: "%Y" }}/">{{ page.alt-date | date: "%Y" }}</a>
+
+  {%- if page.alt-publisher or page.alt-volume -%}
+    )
+  {%- endif -%}
+  
+  {%- if page.alt-pages -%}
+    , {{ page.alt-pages }}
+  {%- endif -%}
+</div>
+{% endif %}
+
+{{ content }}
 
 {%- if page.gs -%}
   <div class="metadata">
     <a href="https://scholar.google.com/scholar?cites={{ page.gs }}">citations</a>
+  </div>
+{%- endif -%}
+
+{%- if page.alt-gs -%}
+  <div class="metadata">
+    <a href="https://scholar.google.com/scholar?cites={{ page.alt-gs }}">{{ page.alt-title }} citations</a>
   </div>
 {%- endif -%}
 

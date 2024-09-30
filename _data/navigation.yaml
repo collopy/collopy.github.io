@@ -1,7 +1,11 @@
 - name: Home
   link: /
-- name: Recent
-  link: /recent/
+- name: Writing
+  link: /works/
+- name: Exhibits
+  link: /exhibits/
+- name: Teaching
+  link: /teaching/
 - name: Subjects
   link: /subjects/
 - name: CV

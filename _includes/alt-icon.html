@@ -1,0 +1,26 @@
+<span class="icon">
+{% if post %}
+	{% assign medium = post.alt-medium %}
+{% else %}
+	{% assign medium = page.alt-medium %}
+{% endif %}
+
+{% case medium %}
+	{% when "text" %}
+		📄
+	{% when "chapter", "article" %}
+		📖
+	{% when "book" %}
+		📘
+	{% when "thesis" %}
+		🎓
+	{% when "video" %}
+		📺
+	{% when "audio" %}
+		🎧
+	{% when "exhibit" %}
+		🖼️
+	{% when "syllabus", "bibliography" %}
+		📚
+{% endcase %}
+</span>
