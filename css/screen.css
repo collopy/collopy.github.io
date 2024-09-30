@@ -5,7 +5,7 @@ a:link {color: darkblue; text-decoration: underline;}
 a:visited, .metadata {color: rgb(80, 80, 80);}
 a:hover {color: maroon;}
 
-nav {clear: right; float: right; text-transform: lowercase; text-align: right; min-width: 4.1em; margin: 0 0 20px 30px; padding: 0 5px 5px 10px; border-width: 0 0 1px 1px; border-style: solid;}
+nav {clear: right; float: right; text-transform: lowercase; text-align: right; min-width: 5.1em; margin: 0 0 20px 30px; padding: 0 5px 5px 10px; border-width: 0 0 1px 1px; border-style: solid;}
 nav a:link {text-decoration: none;}
 nav a:visited {color: darkblue;}
 nav a:hover {color: maroon;}
