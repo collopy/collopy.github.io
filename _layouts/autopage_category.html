@@ -6,7 +6,7 @@
 	<h1>{% include category_title.html %}</h1>
 	{% include nav.html %}
 	{% include paginator.html %}
-	{% if page.autopages.display_name == "works" %}<div class="more"><a href="/everything/">more</a><br><a href="/subjects/">more by subject</a></div>{% endif %}
+	{% if page.autopages.display_name == "publications" %}<div class="more"><a href="/everything/">more</a><br><a href="/subjects/">more by subject</a></div>{% endif %}
 	<div class="feed"><a href="https://collopy.net/feed/{{ page.autopages.display_name | slugify: 'pretty' }}.xml">feed</a></div>
   </body>
 </html>

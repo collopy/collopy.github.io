@@ -23,7 +23,7 @@ feed:
     - reviews
     - teaching
     - writing
-    - major
+    - publications
   posts_limit: 100
   tags:
     path: "/feed/subjects/"

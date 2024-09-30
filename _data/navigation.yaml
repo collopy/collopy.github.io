@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Writing
-  link: /works/
+- name: Publications
+  link: /publications/
 - name: Teaching
   link: /teaching/
 - name: Subjects
