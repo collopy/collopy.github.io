@@ -7,7 +7,6 @@ publisher: "Caltech Library"
 link: "https://shop.getty.edu/products/crossing-over-art-and-science-at-caltech-1920-2020-978-1606069424"
 medium: book
 tags: [architecture, art, astronomy, biology, books, Caltech, chemistry, computing, education, engineering, film, gender, genetics, geology, laboratories, media, photography, physics, science, technology, universities, visual culture, war, white supremacy]
-category: publications
 
 alt-title: "introduction"
 alt-authors: "Peter Sachs Collopy and Claudia Bohn-Spector"
