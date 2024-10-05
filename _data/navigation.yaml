@@ -1,8 +1,8 @@
 - name: Home
   link: /
-- name: Subjects
-  link: /subjects/
-- name: Everything
-  link: /everything/
+- name: Research
+  link: /research/
+- name: Teaching
+  link: /teaching/
 - name: CV
   link: /cv/

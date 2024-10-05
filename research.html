@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Peter Sachs Collopy: Research"
+regenerate: true
+---
+
+{% capture tags %}{% for tag in site.tags %}{{ tag[0] }}|{% endfor %}{% endcapture %}
+{% assign sortedtags = tags | split:'|' | sort_natural %}
+
+<ul style="column-width: 200px;">
+{% for tag in sortedtags %}
+  <li>
+    <a href="/subjects/{{ tag | slugify }}">{{ tag }}</a> ({{ site.tags[tag] | size }})
+  </li>
+{% endfor %}
+  <li>
+    <a href="/everything" style="font-weight: bold">everything</a> ({{ site.posts | size }})
+  </li>
+</ul>
