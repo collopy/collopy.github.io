@@ -10,10 +10,10 @@ regenerate: true
 <ul style="column-width: 200px;">
 {% for tag in sortedtags %}
   <li>
-    <a href="/subjects/{{ tag | slugify }}">{{ tag }}</a> ({{ site.tags[tag] | size }})
+    <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
   </li>
 {% endfor %}
   <li>
-    <a href="/everything" style="font-weight: bold">everything</a> ({{ site.posts | size }})
+    <a href="everything/" style="font-weight: bold">everything</a> ({{ site.posts | size }})
   </li>
 </ul>

@@ -23,10 +23,9 @@ feed:
     - reviews
     - teaching
     - writing
-    - publications
   posts_limit: 100
   tags:
-    path: "/feed/subjects/"
+    path: "/feed/research/"
     
 pagination:
   enabled: true
@@ -39,7 +38,7 @@ autopages:
   categories:
     permalink: '/:cat'
   tags:
-    permalink: '/subjects/:tag'
+    permalink: '/research/:tag'
     title: 'On :tag'
     slugify:
       mode: 'pretty'
