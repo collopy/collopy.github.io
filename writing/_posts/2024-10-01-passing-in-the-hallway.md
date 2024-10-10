@@ -7,7 +7,7 @@ publisher: "Caltech Library"
 publication-link: "https://shop.getty.edu/products/crossing-over-art-and-science-at-caltech-1920-2020-978-1606069424"
 medium: chapter
 pages: 288–93
-tags: [art, chemistry, computing, engineering, film, gender, media, science, technology, universities, visual culture]
+tags: [art, Caltech, chemistry, computing, engineering, film, gender, media, science, technology, universities, visual culture]
 ---
 
 In 1969, Caltech converted seven rooms in its defunct Earhart Plant Research Laboratory into an art studio, hosting artists who worked in the media of plastics and computer animation. In the long 1960s, artists and scientists embraced each others’ professional practices, and universities created new centers for art and technology. Artists and scientists did not come to these new programs with the same motivations and expectations. Many artists were interested in synthesizing art with science and engineering, but most scientists and engineers who engaged in art were seeking a break from their technical work rather than a different mode of it, making genuine collaboration the exception rather than the rule.
