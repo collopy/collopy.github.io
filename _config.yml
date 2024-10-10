@@ -17,10 +17,8 @@ plugins:
 feed:
   categories:
     - discussions
-    - editing
     - exhibits
     - presentations
-    - reviews
     - teaching
     - writing
   posts_limit: 100
