@@ -19,6 +19,7 @@ feed:
     - discussions
     - exhibits
     - presentations
+    - reports
     - teaching
     - writing
   posts_limit: 100
