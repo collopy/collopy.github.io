@@ -170,6 +170,12 @@ layout: default
 
 {{ content }}
 
+{%- if page.link -%}
+  <div class="metadata">
+    <a href="{{ page.link }}">more</a>
+  </div>
+{%- endif -%}
+
 {%- if page.gs -%}
   <div class="metadata">
     <a href="https://scholar.google.com/scholar?cites={{ page.gs }}">citations</a>
