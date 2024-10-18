@@ -14,7 +14,6 @@ alt-title: "Video and the Origins of Electronic Photography"
 alt-language: English
 alt-link: http://resolver.caltech.edu/CaltechAUTHORS:20190831-153442412
 alt-venue: CaltechAUTHORS
-alt-highlight: yes
 tags: [technology, media, video, photography, visual culture, analog/digital, engineering]
 ---
 
