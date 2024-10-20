@@ -172,10 +172,12 @@ layout: default
 
 {%- if page.link or page.alt-link -%}
   <div class="metadata">
-    {%- if page.alt-link -%}
-      More: {%- if page.link -%}<a href="{{ page.link }}">{{ page.title }}</a>,{%- endif %} <a href="{{ page.alt-link }}">{{ page.alt-title }}</a>
-    {%- else -%}
+    {%- if page.link and page.alt-link -%}
+      More: <a href="{{ page.link }}">{{ page.title }}</a>, <a href="{{ page.alt-link }}">{{ page.alt-title }}</a>
+    {%- elsif page.link -%}
       <a href="{{ page.link }}">more</a>
+    {%- else -%}
+      <a href="{{ page.alt-link }}">more</a>
     {%- endif -%}
   </div>
 {%- endif -%}
