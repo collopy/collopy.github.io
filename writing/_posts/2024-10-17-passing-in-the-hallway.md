@@ -4,6 +4,7 @@ title: "Passing in the Hallway: Art and Technology at Caltech, 1968–1972"
 publication: "Crossing Over: Art and Science at Caltech, 1920–2020"
 editors: "Peter Sachs Collopy and Claudia Bohn-Spector"
 publisher: "Caltech Library"
+link: https://authors.library.caltech.edu/records/6v5rz-dkg58/files/p288-293-PassingInTheHallway-CrossingOver.pdf
 publication-link: "https://library.caltech.edu/crossing-over/catalog"
 medium: chapter
 pages: 288–93
