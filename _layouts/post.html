@@ -82,6 +82,7 @@ layout: default
   {%- if page.pages -%}
     , {{ page.pages }}
   {%- endif -%}
+  .
 </div>
 
 {% if page.alt-title %}
@@ -166,6 +167,7 @@ layout: default
     , {{ page.alt-pages }}
   {%- endif -%}
 </div>
+.
 {% endif %}
 
 {{ content }}
@@ -199,7 +201,7 @@ layout: default
   <div class="metadata"">
     Subject{%- if tags.size > 1 -%}s{%- endif -%}:
     {% for tag in tags %}
-      <a href="/research/{{tag | slugify }}">{{ tag }}</a>{%- unless forloop.last -%}, {%- endunless -%}
+      <a href="/research/{{tag | slugify }}/">{{ tag }}</a>{%- unless forloop.last -%}, {%- endunless -%}
     {%- endfor -%}
   </div>
 {%- endif -%}
