@@ -199,7 +199,7 @@ layout: default
   <div class="metadata"">
     Subject{%- if tags.size > 1 -%}s{%- endif -%}:
     {% for tag in tags %}
-      <a href="/subjects/{{tag | slugify }}">{{ tag }}</a>{%- unless forloop.last -%}, {%- endunless -%}
+      <a href="/research/{{tag | slugify }}">{{ tag }}</a>{%- unless forloop.last -%}, {%- endunless -%}
     {%- endfor -%}
   </div>
 {%- endif -%}
