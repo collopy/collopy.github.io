@@ -16,6 +16,7 @@ alt-link: https://authors.library.caltech.edu/records/6v5rz-dkg58/preview/p14-20
 alt-publication: "Crossing Over"
 alt-medium: chapter
 alt-pages: 14–19
+alt-highlight: yes
 ---
 
 This book offers an exciting in-depth look at the intersection of art and science at the renowned California Institute of Technology.
