@@ -5,7 +5,7 @@ venue: "Caltech"
 collaborators: [Heidi Aspaturian, Loma Karklins, Elisa Piccio]
 link: "https://library.caltech.edu/archives/exhibits/becoming"
 medium: exhibit
-tags: [Caltech, science, technology, universities, laboratories, engineering, visual culture, education]
+tags: [Caltech, science, technology, universities, laboratories, engineering, visual culture, education, California]
 ---
 
 In the 1910s and 1920s, Caltech dramatically reinvented itself, transforming from a manual arts academy to an engineering school, then expanding into a research institute. The school began building its current campus, recruited renowned faculty, constructed sophisticated laboratories, trained students to become leading researchers, and established new relationships with industry and government. On February 10, 1920, the Institute’s trustees acknowledged this transformation by changing the institution’s name from Throop College of Technology to California Institute of Technology.

@@ -6,7 +6,7 @@ issue: Spring
 collaborators: [Jon Nalick]
 link: "https://magazine.caltech.edu/post/caltech-evolution/#QA"
 medium: text
-tags: Caltech universities science war education engineering
+tags: Caltech universities science war education engineering California
 ---
 
 **What is the scope of *Becoming Caltech*?**
