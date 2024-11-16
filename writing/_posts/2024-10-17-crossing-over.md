@@ -12,7 +12,7 @@ tags: [architecture, art, astronomy, biology, books, Caltech, chemistry, computi
 alt-title: "introduction"
 alt-authors: "Peter Sachs Collopy and Claudia Bohn-Spector"
 alt-collaborators: [Claudia Bohn-Spector]
-alt-link: https://authors.library.caltech.edu/records/6v5rz-dkg58/preview/p14-20-Introduction-CrossingOver.pdf
+alt-link: https://doi.org/10.7907/qcjjb-cbg06
 alt-publication: "Crossing Over"
 alt-medium: chapter
 alt-pages: 14–19
