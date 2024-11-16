@@ -175,7 +175,7 @@ layout: default
 {%- if page.link or page.alt-link -%}
   <div class="metadata">
     {%- if page.link and page.alt-link -%}
-      More: <a href="{{ page.link }}">{{ page.title }}</a>, <a href="{{ page.alt-link }}">{{ page.alt-title }}</a>
+      More: <a href="{{ page.link }}">{% if page.format %}{{ page.format }}{% else %}{{ page.title }}{% endif %}</a>, <a href="{{ page.alt-link }}">{% if page.alt-language or page.alt-format %}{% if page.alt-language %}{{ page.alt-language }}{% endif %}{% if page.alt-format %} {{ page.alt-format }}{% endif %}{% else %}{{ page.alt-title }}{% endif %}</a>
     {%- elsif page.link -%}
       <a href="{{ page.link }}">more</a>
     {%- else -%}
