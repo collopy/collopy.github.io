@@ -9,6 +9,8 @@ pages: 108–51
 medium: chapter
 format: edited chapter
 tags: [technology, media, video, cybernetics, psychiatry, consciousness, visual culture, mind sciences, human sciences, medicine, gender, psychology, art, psychotherapy]
+category: works
+permalink: /writing/2022/video-and-the-self/
 
 alt-title: "chapter introduction"
 alt-publication: "Video Theories"

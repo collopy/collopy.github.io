@@ -5,6 +5,8 @@
 	  <span class="tab selected">{{ item.name }}</span>
 	{% elsif page.url contains item.link and item.link != "/"  %}
 	  <a href="{{ item.link }}" class="tab selected">{{ item.name }}</a>
+	{% elsif page.url contains "writing" and item.link == "/works/"  %}
+	  <a href="{{ item.link }}" class="tab selected">{{ item.name }}</a>
 	{% else %}
 	  <a href="{{ item.link }}" class="tab">{{ item.name }}</a>
 	{% endif %}
