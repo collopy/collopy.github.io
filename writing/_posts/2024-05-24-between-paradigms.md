@@ -8,7 +8,6 @@ publisher: Yale University Press
 link: "/writing/publications/Between%20Paradigms.pdf"
 medium: chapter
 tags: [technology, media, video, cybernetics, psychiatry, consciousness, visual culture, mind sciences, human sciences, medicine, gender, psychology, art, counterculture, modernism, postmodernism, drugs, anarchism, radicalism, education, politics, conservatism, technopolitics, socialism, psychedelics, philosophy, psychotherapy, New York]
-category: works
 permalink: /writing/2024/between-paradigms/
 ---
 

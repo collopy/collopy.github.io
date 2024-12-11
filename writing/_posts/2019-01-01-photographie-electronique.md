@@ -15,7 +15,6 @@ alt-language: English
 alt-link: http://resolver.caltech.edu/CaltechAUTHORS:20190831-153442412
 alt-venue: CaltechAUTHORS
 tags: [technology, media, video, photography, visual culture, analog/digital, engineering]
-category: works
 permalink: /writing/2019/photographie-electronique/
 ---
 

@@ -7,7 +7,6 @@ gs: 790874557791318493
 medium: thesis
 format: thesis
 tags: science biology geology evolution religion Christianity conservatism philosophy Oberlin
-category: works
 permalink: /writing/2007/george-frederick-wright/
 ---
 

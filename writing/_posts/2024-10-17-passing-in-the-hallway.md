@@ -9,7 +9,6 @@ publication-link: "https://library.caltech.edu/crossing-over/catalog"
 medium: chapter
 pages: 288–93
 tags: [art, Caltech, chemistry, computing, engineering, film, gender, media, science, technology, universities, visual culture, California]
-category: works
 permalink: /writing/2024/passing-in-the-hallway/
 ---
 

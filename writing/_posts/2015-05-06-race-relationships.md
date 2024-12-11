@@ -9,7 +9,6 @@ link: "/writing/publications/Race%20Relationships.pdf"
 gs: 8754565656821644246
 medium: article
 tags: [science, biology, anthropology, evolution, politics, race, white supremacy, conservatism, liberalism, human sciences, genetics]
-category: works
 permalink: /writing/2015/race-relationships/
 ---
 

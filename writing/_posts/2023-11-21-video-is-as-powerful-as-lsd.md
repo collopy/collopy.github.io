@@ -10,7 +10,6 @@ link: "https://doi.org/10.7551/mitpress/14417.003.0022"
 medium: chapter
 language: English
 tags: [technology, media, video, synthesizers, psychiatry, consciousness, psychedelics, visual culture, mind sciences, science, human sciences, medicine, engineering, counterculture, drugs, art, psychology, California, New York]
-category: works
 permalink: /writing/2023/video-is-as-powerful-as-lsd/
 
 alt-title: "“El vídeo es tan poderoso como el LSD”: Electrónica y psicodélicos como tecnologías de la conciencia"

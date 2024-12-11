@@ -22,7 +22,6 @@ feed:
     - reports
     - teaching
     - writing
-    - works
   posts_limit: 100
   tags:
     path: "/feed/research/"

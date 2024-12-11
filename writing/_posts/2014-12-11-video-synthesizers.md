@@ -9,7 +9,6 @@ link: "/writing/publications/Video%20Synthesizers.pdf"
 gs: 5700856085013442869
 medium: article
 tags: [technology, media, computing, video, synthesizers, consciousness, psychedelics, art, visual culture, analog/digital, engineering, counterculture, drugs, utopianism]
-category: works
 permalink: /writing/2014/video-synthesizers/
 ---
 

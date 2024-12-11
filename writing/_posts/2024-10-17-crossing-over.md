@@ -8,7 +8,6 @@ link: "https://library.caltech.edu/crossing-over/catalog"
 medium: book
 format: exhibition catalog
 tags: [architecture, art, astronomy, biology, books, Caltech, chemistry, computing, education, engineering, film, gender, genetics, geology, laboratories, media, photography, physics, science, technology, universities, visual culture, war, white supremacy, California]
-category: works
 permalink: /writing/2024/crossing-over/
 
 alt-title: "introduction"
