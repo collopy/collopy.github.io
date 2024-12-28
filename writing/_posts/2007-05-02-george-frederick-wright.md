@@ -7,7 +7,6 @@ gs: 790874557791318493
 medium: thesis
 format: thesis
 tags: science biology geology evolution religion Christianity conservatism philosophy Oberlin
-permalink: /writing/2007/george-frederick-wright/
 ---
 
 George Frederick Wright was an Oberlin-educated theologian and self-taught geologist who lived from 1838 to 1921. He was among the most influential Christian interpreters of Darwinism as Americans began to debate the theory in the 1870s and 1880s. In his writings, Wright illustrated a method for reconciling evolutionary theory with Christianity. Wright himself was a Calvinist, and he argued that his own conservative theological tradition shared important characteristics with Darwinism.
