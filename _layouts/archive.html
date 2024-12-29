@@ -1,13 +1,21 @@
+{% capture year %}{{ page.date | date: "%Y" }}{% endcapture %}
+
 {% include head.html %}
-	<title>{{ site.title }}: {{ page.date | date: "%Y" }}</title>
+	<title>{{ site.title }}: {{ year }}</title>
   </head>
   <body>
-	<h1>{{ site.title }}: {{ page.date | date: "%Y" }}</h1>
+	<h1>{{ site.title }}: {{ year }}</h1>
 	{% include nav.html %}
 	<ul class="posts">
 	{% for post in page.posts %}
-	  {% include blogpost.html %}
+	 	{% include blogpost.html %}
 	{% endfor %}
 	</ul>
+	<div class="previous">
+		<a href="/{{ page.date | date: "%Y" | minus: 1 }}">earlier</a>
+	</div>
+	<div class="next">
+		<a href="/{{ page.date | date: "%Y" | plus: 1 }}">later</a>
+	</div>
   </body>
 </html>
