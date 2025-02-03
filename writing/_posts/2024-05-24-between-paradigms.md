@@ -5,7 +5,7 @@ publication: "Modernism, Art, Therapy"
 publication-link: "https://aaeportal.com/?id=-32140"
 editors: Suzanne Hudson and Tanya Sheehan
 publisher: Yale University Press
-link: "/writing/publications/Between%20Paradigms.pdf"
+link: "https://aaeportal.com/?id=-32155"
 medium: chapter
 tags: [technology, media, video, cybernetics, psychiatry, consciousness, visual culture, mind sciences, human sciences, medicine, gender, psychology, art, counterculture, modernism, postmodernism, drugs, anarchism, radicalism, education, politics, conservatism, technopolitics, socialism, psychedelics, philosophy, psychotherapy, New York]
 ---
