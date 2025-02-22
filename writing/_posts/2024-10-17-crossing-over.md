@@ -7,7 +7,7 @@ publisher: "Caltech Library"
 link: "https://library.caltech.edu/crossing-over/catalog"
 medium: book
 format: exhibition catalog
-tags: [architecture, art, astronomy, biology, books, Caltech, chemistry, computing, education, engineering, film, gender, genetics, geology, laboratories, media, photography, physics, science, technology, universities, visual culture, war, white supremacy, California]
+tags: [architecture, art, astronomy, biology, Caltech, chemistry, computing, engineering, gender, geology, laboratories, media, physics, science, technology, visual culture, war]
 
 alt-title: "introduction"
 alt-authors: "Peter Sachs Collopy and Claudia Bohn-Spector"

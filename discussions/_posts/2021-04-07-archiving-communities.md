@@ -5,7 +5,7 @@ collaborators: [Nivetha Karthikeyan, Rochelle Diamond, Edray Goins, Melany Hunt]
 venue: Caltech Alumni Association
 link: "https://www.youtube.com/watch?v=YfC2GqSfDlU&list=PLdAuZfFi4N-lmxhTy5RhuPDEo5G2PEbTr"
 medium: video
-tags: Caltech archives universities politics race sexuality gender California
+tags: Caltech archives politics race sexuality gender
 ---
 
 The legacy of Caltech is marked by stories of injustice. It is also marked by the communities forged in the face of that injustice, exclusion, and bigotry. In this virtual event hosted on April 27, 2021, a panel of current and former members of Caltech’s staff, faculty, and student body (Rochelle Diamond, Dr. Melany Hunt, and Dr. Edray Goins) offered reflections on their personal histories of organizing, agitating, and advocating on campus.

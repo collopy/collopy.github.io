@@ -1,0 +1,47 @@
+---
+layout: default
+title: "Peter Sachs Collopy"
+regenerate: true
+---
+
+{% capture tags %}{% for tag in site.tags %}{{ tag[0] }}|{% endfor %}{% endcapture %}
+{% assign sortedtags = tags | split:'|' | sort_natural %}
+
+<p style="text-align: center; font-size: larger;">
+ historian/archivist/curator of science/technology/media
+</p>
+
+<ul style="column-width: 150px;">
+{% for tag in sortedtags %}
+  <li>
+    <a href="/research/{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+  </li>
+{% endfor %}
+  <li>
+    <a href="everything/" style="font-weight: bold">everything</a> ({{ site.posts | size }})
+  </li>
+</ul>
+
+<ul style="column-width: 150px; text-align: center; font-weight: bold; margin-top: 30px;">
+  <li>
+    <a href="/writing">writing</a>
+  </li>
+  <li>
+    <a href="/exhibits">exhibits</a>
+  </li>
+  <li>
+    <a href="/teaching">teaching</a>
+  </li>
+  <li>
+    <a href="/cv">cv</a>
+  </li>
+</ul>
+
+<p style="text-align: center; margin: 30px auto 0; font-size: larger;">
+  they/he<br>
+  <a href="mailto:peter@collopy.net">peter@collopy.net</a><br>
+  <a href="/cv/">CV</a>
+</p>
+<p style="text-align: center; margin: 30px auto 0;">
+  מיר װעלן זײ איבערלעבן
+</p>

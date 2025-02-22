@@ -9,7 +9,7 @@ pages: 697–98
 review-editors: Gregg Mitman and Kelley Wilder
 link: /writing/publications/Documenting%20the%20World.pdf
 medium: article
-tags: [science, technology, media, visual culture, film, photography, human sciences]
+tags: [science, technology, media, visual culture, human sciences]
 ---
 
 Although photography and film are sometimes marginal subjects in the history of technology, the apparent dematerialization produced by digitization has prompted greater interest in materiality and technology from humanities disciplines more invested in their history. At the same time, historians of science have become increasingly attentive to visual representation and how images function as evidence.

@@ -2,7 +2,7 @@
 layout: post
 title: "Writing Technologies and Processes, or An Exploration of the Relationships between Technology, Structure, Linearity, Revision, and Metaphor"
 medium: text
-tags: education writing media technology computing
+tags: education media technology computing
 ---
 
 The tools which writers use affect their work. I have long described my own chaotic revision strategy as arising largely from the facts that I have written on computers for most of my literary life and that word processing seems to have a substantial impact on my writing process; the machine in front of me makes it easy to move sentences or paragraphs that seem to be in the wrong order, for instance, even if I’m not confident that the new order will be an improvement. “We often lose sight of writing as technology”[^1]; it is typically taught and discussed as a medium-neutral skill, when in fact the process of writing, and particularly the linearity of this process, varies depending on the technologies one employs.
