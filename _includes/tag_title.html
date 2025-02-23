@@ -1,1 +1,1 @@
-{{ site.title }}: On {{ page.autopages.display_name }}{% if page.pagination_info.total_pages > 1 %}, page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}{% endif %}
+{{ site.title }}: On {% if page.autopages.display_name == "consciousness" %}technologies of consciousness{% else %}{{ page.autopages.display_name }}{% endif %}{% if page.pagination_info.total_pages > 1 %}, page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}{% endif %}

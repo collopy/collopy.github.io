@@ -8,11 +8,214 @@ regenerate: true
 {% assign sortedtags = tags | split:'|' | sort_natural %}
 
 <ul style="column-width: 200px;">
-{% for tag in sortedtags %}
   <li>
+    {% assign tag = "science" %}
+    <a href="{{ tag | slugify }}/" class="field">{{ tag }}</a> ({{ site.tags[tag] | size }})
+    <ul>
+      <li>
+        {% assign tag = "astronomy" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "biology" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+        <ul>
+          <li>
+            {% assign tag = "eugenics" %}
+            <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+          </li>
+          <li>
+            {% assign tag = "evolution" %}
+            <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+          </li>
+        </ul>
+      </li>
+      <li>
+        {% assign tag = "chemistry" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "cybernetics" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "geology" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "physics" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "human sciences" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+        <ul>
+          <li>
+            {% assign tag = "anthropology" %}
+            <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+          </li>
+        </ul>
+      </li>
+      <li>
+        {% assign tag = "laboratories" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "Caltech" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+    </ul>
+  </li>
+  <li>
+    {% assign tag = "medicine" %}
+    <a href="{{ tag | slugify }}/" class="field">{{ tag }}</a> ({{ site.tags[tag] | size }})
+    <ul>
+      <li>
+        {% assign tag = "psychiatry" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+    </ul>
+  </li>
+  <li>
+    {% assign tag = "philosophy" %}
     <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
   </li>
-{% endfor %}
+  <li>
+    {% assign tag = "technology" %}
+    <a href="{{ tag | slugify }}/" class="field">{{ tag }}</a> ({{ site.tags[tag] | size }})
+    <ul>
+      <li>
+        {% assign tag = "computing" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+        <ul>
+          <li>
+            {% assign tag = "internet" %}
+            <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+          </li>
+        </ul>
+      </li>
+      <li>
+        {% assign tag = "drugs" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "video" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+        <ul>
+          <li>
+            {% assign tag = "synthesizers" %}
+            <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+          </li>
+        </ul>
+      </li>
+      <li>
+        {% assign tag = "analog/digital" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "consciousness" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "engineering" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "technopolitics" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+    </ul>
+  </li>
+  <li>
+    {% assign tag = "media" %}
+    <a href="{{ tag | slugify }}/" class="field">{{ tag }}</a> ({{ site.tags[tag] | size }})
+  </li>
+  <li>
+    {% assign tag = "visual culture" %}
+    <a href="{{ tag | slugify }}/" class="field">{{ tag }}</a> ({{ site.tags[tag] | size }})
+    <ul>
+      <li>
+        {% assign tag = "art" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "architecture" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+    </ul>
+  </li>
+  <li>
+    {% assign tag = "religion" %}
+    <a href="{{ tag | slugify }}/" class="field">{{ tag }}</a> ({{ site.tags[tag] | size }})
+    <ul>
+      <li>
+        {% assign tag = "Christianity" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+    </ul>
+  </li>
+  <li>
+    {% assign tag = "politics" %}
+    <a href="{{ tag | slugify }}/" class="field">{{ tag }}</a> ({{ site.tags[tag] | size }})
+    <ul>
+      <li>
+        {% assign tag = "anarchism" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "capitalism" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "communism" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "conservatism" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "fascism" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "liberalism" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "utopianism" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "war" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+      <li>
+        {% assign tag = "white supremacy" %}
+        <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+      </li>
+    </ul>
+  </li>
+  <li>
+    {% assign tag = "archives" %}
+    <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+  </li>
+  <li>
+    {% assign tag = "education" %}
+    <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+  </li>
+  <li>
+    {% assign tag = "gender" %}
+    <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+  </li>
+  <li>
+    {% assign tag = "sexuality" %}
+    <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+  </li>
+  <li>
+    {% assign tag = "race" %}
+    <a href="{{ tag | slugify }}/">{{ tag }}</a> ({{ site.tags[tag] | size }})
+  </li>
   <li>
     <a href="everything/" style="font-weight: bold">everything</a> ({{ site.posts | size }})
   </li>
