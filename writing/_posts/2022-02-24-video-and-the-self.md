@@ -8,7 +8,7 @@ publisher: Bloomsbury
 pages: 108–51
 medium: chapter
 format: edited chapter
-tags: [technology, media, video, cybernetics, consciousness, visual culture, human sciences, medicine, gender, art, psychiatry]
+tags: [technology, media, video, cybernetics, consciousness, visual culture, human sciences, medicine, art, psychiatry]
 
 alt-title: "chapter introduction"
 alt-publication: "Video Theories"
