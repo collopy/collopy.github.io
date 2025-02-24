@@ -9,7 +9,7 @@ pages: 333–55
 link: "https://doi.org/10.7551/mitpress/14417.003.0022"
 medium: chapter
 language: English
-tags: [technology, media, video, synthesizers, consciousness, visual culture, science, human sciences, medicine, engineering, drugs, art, psychiatry]
+tags: [technology, media, video, synthesizers, consciousness, visual culture, science, human sciences, medicine, engineering, drugs, art, psychiatry, California]
 
 alt-title: "“El vídeo es tan poderoso como el LSD”: Electrónica y psicodélicos como tecnologías de la conciencia"
 alt-link: "https://chacruna-la.org/lsd-electronica-tecnologias-conciencia/"

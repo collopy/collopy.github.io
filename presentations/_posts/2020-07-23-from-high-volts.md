@@ -4,7 +4,7 @@ title: "From High Volts to High Energy Physics"
 venue: "Caltech"
 link: "https://www.youtube.com/watch?v=457ILVhEsso&t=1m41s"
 medium: video
-tags: Caltech physics technology laboratories engineering science
+tags: Caltech physics technology laboratories engineering science California
 ---
 
 Last year, Caltech rededicated a building on its campus following a major renovation. The Alfred P. Sloan Laboratory for Mathematics and Physics became the Ronald and Maxine Linde Hall of Mathematics and Physics. Linde Hall occupies a structure which is now 97 years old and has evolved over that time with the disciplines of physics, mathematics, and electrical engineering.

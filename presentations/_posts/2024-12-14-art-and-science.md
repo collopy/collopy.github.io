@@ -5,7 +5,7 @@ venue: "Caltech"
 link: "https://www.youtube.com/watch?v=WXrRtDWuqf4&list=PLdAuZfFi4N-lmxhTy5RhuPDEo5G2PEbTr"
 medium: video
 collaborators: [Soraya de Chadarevian, Lois Rosson, Brian R. Jacobson, Christopher Hawthorne]
-tags: [architecture, art, astronomy, Caltech, chemistry, laboratories, media, physics, science, visual culture]
+tags: [architecture, art, astronomy, Caltech, chemistry, laboratories, media, physics, science, visual culture, California]
 ---
 
 The *Crossing Over* exhibition, which unfolds across three independent spaces on the Caltech campus, draws on the research of 12 scholars in the visual culture of Caltech science. Their collective work is captured in the exhibit and a companion exhibition catalog that weave together the history of science with historical and contemporary art.
