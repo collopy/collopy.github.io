@@ -9,6 +9,8 @@ The tools which writers use affect their work. I have long described my own chao
 
 In order to examine the ways in which this is the case I conducted interviews of Oberlin College students in which we discussed their writing processes, technologies, and techniques.[^2] I developed this revision of this essay from an earlier, more theoretical version. Here I maintain and expand some of the theory I described and developed in the previous revision, comparing my thoughts about writing processes and technologies with the experiences of others. I focus as much as possible on writing technologies, given the relative homogeneity of writing technology utilization at Oberlin, where the vast majority of students have and use computers. Technology is not, however, the only determining factor of writing process, so I describe other writing methods utilized by my interviewees as well, emphasizing the diversity of writing technique among Oberlin students.
 
+<!--more-->
+
 ## Pens and Structured Prewriting
 
 Because pens and similar instruments have been the primary writing tools for millennia, the ways in which people write with a pen are still often viewed as the only ways people write. The chief characteristic of writing with a pen is linearity: words cannot be moved, so the obvious thing to do after writing a word is to write the next word. Rewriting requires either crossing out and writing in margins or between lines or writing another draft altogether. Traditional revision processes are thus highly structured, because while it takes a substantial amount of time to write out a new draft, there is little alternative once one’s paper becomes covered with corrections and changes.

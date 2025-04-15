@@ -20,6 +20,7 @@ p {margin: 8pt 0;}
 .next {float: right; text-align: right; clear: right;}
 .feed, .more {clear: both; text-align: center;}
 .blogpost {padding-bottom: 9pt; margin-left: 1em;}
+.major {display: inline; float: left; position: relative; width: 2em; margin-left: -4.25em; text-align: right;}
 .icon {display: inline; float: left; position: relative; width: 2em; margin-left: -2.5em; text-align: right;}
 .translation {color: rgb(110, 110, 110);}
 [role=doc-endnote] {padding: 0;}

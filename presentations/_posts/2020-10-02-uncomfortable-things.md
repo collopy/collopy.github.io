@@ -6,6 +6,7 @@ collaborators: [graduate students, postdocs, Maura Dykstra]
 link: "https://www.youtube.com/watch?v=iHF6JEOLFVU"
 medium: video
 tags: [eugenics, Caltech, politics, science, conservatism, human sciences, education, white supremacy, California]
+major: yes
 ---
 
 In this event, members of the Caltech community presented their reflections on a collection of digitized materials curated from the Caltech Archives. The “uncomfortable things” selected for this discussion were artifacts of experiences of exclusion, inequality, discrimination, and bigotry in the history of Caltech. In this session, we acknowledged that the legacy of Caltech is intertwined with stories of injustice. By asking participants to personally reflect on that legacy, this event highlighted how there is no single solution or perspective sufficient to answer the multitude of questions and concerns that our community has about its history.

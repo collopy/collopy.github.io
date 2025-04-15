@@ -9,6 +9,7 @@ pages: 108–51
 medium: chapter
 format: edited chapter
 tags: [technology, media, video, cybernetics, consciousness, visual culture, human sciences, medicine, art, psychiatry]
+major: yes
 
 alt-title: "chapter introduction"
 alt-publication: "Video Theories"
