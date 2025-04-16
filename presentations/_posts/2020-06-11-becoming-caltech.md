@@ -6,6 +6,7 @@ collaborators: [Heidi Aspaturian, Judith Goodstein, Loma Karklins, Elisa Piccio]
 link: "https://library.caltech.edu/c.php?g=1230813&p=9112718"
 medium: video
 tags: Caltech science technology medicine geology chemistry physics biology engineering education architecture California
+major: yes
 ---
 
 A century ago, a small institution called Throop Polytechnic Institute dramatically reinvented itself, transforming from a manual arts academy to an engineering school, then expanding into a research institute. In 1920, it became the California Institute of Technology. In summer 2020, Caltech archivists gave a series of livestreamed presentations on the science, engineering, architecture, and community life of early Caltech. 
