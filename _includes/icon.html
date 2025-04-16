@@ -1,8 +1,6 @@
-<span class="major">
-{% if post.major %}
-	★
+{% if post.major or page.major %}
+	<span class="major">★</span>
 {% endif %}
-</span>
 
 <span class="icon">
 {% if post %}

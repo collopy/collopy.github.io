@@ -1,11 +1,9 @@
-<span class="icon">
-{% if post %}
-	{% assign medium = post.alt-medium %}
-{% else %}
-	{% assign medium = page.alt-medium %}
+{% if page.alt-major %}
+	<span class="major">★</span>
 {% endif %}
 
-{% case medium %}
+<span class="icon">
+{% case page.alt-medium %}
 	{% when "text" %}
 		📄
 	{% when "chapter", "article" %}
