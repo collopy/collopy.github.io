@@ -16,10 +16,18 @@
 	<div class="previous">
 		<a href="/{{ year | minus: 1 }}">earlier</a>
 	</div>
+	{% elsif year == 2005 %}
+	<div class="previous">
+		<a href="/1999">earlier</a>
+	</div>
 	{% endif %}
 	{% if year > 2004 and year < 2024 %}
 	<div class="next">
 		<a href="/{{ year | plus: 1 }}">later</a>
+	</div>
+	{% elsif year == 1999 %}
+	<div class="next">
+		<a href="/2005">later</a>
 	</div>
 	{% endif %}
   </body>
