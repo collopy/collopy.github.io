@@ -1,18 +1,14 @@
-<ul>
+<ul class="posts">
 {% for post in paginator.posts %}
-  {% include blogpost.html %}
+  {% if post.major != yes %}
+    {% include blogpost.html %}
+  {% endif %}
 {% endfor %}
 </ul>
-
-{% if paginator.total_pages > 1 %}
-  {% if paginator.previous_page %}
-  <div class="previous">
-	<a href="{{ paginator.previous_page_path }}">later</a>
-  </div>
+<ul class="posts">
+{% for post in paginator.posts %}
+  {% if post.major == yes %}
+    {% include blogpost.html %}
   {% endif %}
-  {% if paginator.next_page %}
-  <div class="next">
-	<a href="{{ paginator.next_page_path }}">earlier</a>
-  </div>
-  {% endif %}
-{% endif %}
+{% endfor %}
+</ul>

@@ -9,7 +9,16 @@
 	{% include nav.html %}
 	<ul class="posts">
 	{% for post in page.posts %}
-	 	{% include blogpost.html %}
+	  {% if post.major != yes %}
+		{% include blogpost.html %}
+	  {% endif %}
+	{% endfor %}
+	</ul>
+	<ul class="posts">
+	{% for post in page.posts %}
+	  {% if post.major == yes %}
+		{% include blogpost.html %}
+	  {% endif %}
 	{% endfor %}
 	</ul>
 	{% if year > 2005 %}
