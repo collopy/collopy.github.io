@@ -7,20 +7,39 @@
   <body>
 	<h1>{{ site.title }}: {{ year }}</h1>
 	{% include nav.html %}
-	<ul class="posts">
+	
+	{% assign major_counter = 0 %}
 	{% for post in page.posts %}
 	  {% if post.major != yes %}
+		{% if major_counter == 0 %}
+		  {% assign major_counter = 1 %}
+		  <h3>Major Works</h3>
+		  <ul class="posts">
+		{% endif %}
 		{% include blogpost.html %}
 	  {% endif %}
 	{% endfor %}
-	</ul>
-	<ul class="posts">
+	{% if major_counter == 1 %}
+	  </ul>
+	{% endif %}
+	
+	{% assign minor_counter = 0 %}
 	{% for post in page.posts %}
 	  {% if post.major == yes %}
+		{% if minor_counter == 0 %}
+		  {% assign minor_counter = 1 %}
+		  {% if major_counter == 1 %}
+			<h3>Smaller Projects</h3>
+		  {% endif %}
+		  <ul class="posts">
+		{% endif %}
 		{% include blogpost.html %}
 	  {% endif %}
 	{% endfor %}
-	</ul>
+	{% if minor_counter == 1 %}
+	  </ul>
+	{% endif %}
+	
 	{% if year > 2005 %}
 	<div class="previous">
 		<a href="/{{ year | minus: 1 }}">earlier</a>
