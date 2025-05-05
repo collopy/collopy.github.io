@@ -18,7 +18,6 @@ alt-pages: 108–18
 alt-link: "/writing/publications/Video%20and%20the%20Self.pdf"
 alt-gs: 2016804385568910733
 alt-highlight: yes
-alt-major: yes
 ---
 
 A chapter which I guest edited:
