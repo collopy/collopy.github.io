@@ -31,10 +31,9 @@ h3:first-child {margin-top: 0;}
 	/*Education*/
 	#penn:hover #penncourses {max-height: 400px;}
 	#oberlin:hover #oberlincourses {max-height: 750px;}
-	#rbs:hover #rbscourses {max-height: 75px;}
+	#rbs:hover #rbscourses {max-height: 100px;}
 	#das:hover #dascourses {max-height: 350px;}
 	#oberlincourses {transition: max-height 2s;}
-	#rbscouses {transition: max-height .5s;}
 	
 	/*Publications*/
 	#lavideo:hover #lavideoabstract, #race:hover #raceabstract, #synths:hover #synthsabstract, #crossingintro:hover #crossingintroabstract, #passing:hover #passingabstract, #between:hover #betweenabstract, #lsd:hover #lsdabstract, #self:hover #selfabstract {max-height: 150px;}
