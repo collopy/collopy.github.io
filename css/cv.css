@@ -36,7 +36,7 @@ h3:first-child {margin-top: 0;}
 	#oberlincourses {transition: max-height 2s;}
 	
 	/*Publications*/
-	#lavideo:hover #lavideoabstract, #race:hover #raceabstract, #synths:hover #synthsabstract, #crossingintro:hover #crossingintroabstract, #passing:hover #passingabstract, #between:hover #betweenabstract, #lsd:hover #lsdabstract, #self:hover #selfabstract {max-height: 150px;}
+	#lavideo:hover #lavideoabstract, #race:hover #raceabstract, #synths:hover #synthsabstract, #passing:hover #passingabstract, #between:hover #betweenabstract, #lsd:hover #lsdabstract, #self:hover #selfabstract {max-height: 150px;}
 	
 	/*Exhibitions*/
 	#crossing:hover #crossingabstract {max-height: 150px;}
