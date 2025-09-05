@@ -3,7 +3,7 @@ layout: post
 title: "Becoming Caltech, 1910–1930: Presentations from the Archives"
 venue: "Caltech"
 collaborators: [Heidi Aspaturian, Judith Goodstein, Loma Karklins, Elisa Piccio]
-link: "https://library.caltech.edu/c.php?g=1230813&p=9112718"
+link: "https://library.caltech.edu/archives/exhibits/becoming-presentations"
 medium: video
 tags: Caltech science technology medicine geology chemistry physics biology engineering education architecture California
 major: yes
