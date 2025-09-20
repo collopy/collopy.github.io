@@ -184,6 +184,12 @@ layout: default
   </div>
 {%- endif -%}
 
+{%- if page.review-venue -%}
+  <div class="metadata">
+    Reviewed in <cite><a href="{{ page.review-link }}">{{ page.review-venue }}</a></cite>.
+  </div>
+{%- endif -%}
+
 {%- if page.gs -%}
   <div class="metadata">
     <a href="https://scholar.google.com/scholar?cites={{ page.gs }}">citations</a>

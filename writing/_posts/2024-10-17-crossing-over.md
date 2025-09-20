@@ -4,7 +4,7 @@ title: "<cite>Crossing Over: Art and Science at Caltech, 1920–2020</cite>"
 authors: "Peter Sachs Collopy and Claudia Bohn-Spector, editors"
 collaborators: [Claudia Bohn-Spector]
 publisher: "Caltech Library"
-link: "https://library.caltech.edu/crossing-over/catalog"
+link: https://library.caltech.edu/crossing-over/catalog
 medium: book
 format: exhibition catalog
 tags: [architecture, art, astronomy, biology, Caltech, chemistry, computing, engineering, geology, laboratories, media, physics, science, technology, visual culture, war, California]
@@ -18,6 +18,9 @@ alt-publication: "Crossing Over"
 alt-medium: chapter
 alt-pages: 14–19
 alt-highlight: yes
+
+review-link: https://doi.org/10.1353/tech.2025.a965837
+review-venue: "Technology and Culture"
 ---
 
 This book offers an exciting in-depth look at the intersection of art and science at the renowned California Institute of Technology.
