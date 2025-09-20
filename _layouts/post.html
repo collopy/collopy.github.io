@@ -184,9 +184,15 @@ layout: default
   </div>
 {%- endif -%}
 
-{%- if page.review-venue -%}
+{%- if page.review-venues -%}
+  {%- assign count = 0 -%}
   <div class="metadata">
-    Reviewed in <cite><a href="{{ page.review-link }}">{{ page.review-venue }}</a></cite>.
+    Reviewed in
+    {% for venue in page.review-venues %}
+      <cite><a href="{{ page.review-links[count] }}">{{ venue }}</a></cite>{%- unless forloop.last -%}, {%- endunless -%}
+      {%- assign count = count | plus:1 -%}
+    {%- endfor -%}
+    .
   </div>
 {%- endif -%}
 

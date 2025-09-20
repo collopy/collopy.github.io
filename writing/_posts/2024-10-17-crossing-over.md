@@ -19,8 +19,8 @@ alt-medium: chapter
 alt-pages: 14–19
 alt-highlight: yes
 
-review-link: https://doi.org/10.1353/tech.2025.a965837
-review-venue: "Technology and Culture"
+review-links: [https://doi.org/10.1353/tech.2025.a965837]
+review-venues: [Technology and Culture]
 ---
 
 This book offers an exciting in-depth look at the intersection of art and science at the renowned California Institute of Technology.
