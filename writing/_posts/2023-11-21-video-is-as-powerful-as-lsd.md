@@ -13,7 +13,7 @@ tags: [technology, media, video, synthesizers, consciousness, visual culture, sc
 major: yes
 
 alt-title: "“El vídeo es tan poderoso como el LSD”: Electrónica y psicodélicos como tecnologías de la conciencia"
-alt-link: "https://chacruna-la.org/lsd-electronica-tecnologias-conciencia/"
+alt-link: "https://chacruna-la.org/articulos-es/lsd-electronica-tecnologias-conciencia"
 alt-translator: Ibrahim Gabriell
 alt-venue: Chacruna Latinoamérica
 alt-language: Spanish
