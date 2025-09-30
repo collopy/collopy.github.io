@@ -6,7 +6,7 @@ link: "https://repository.upenn.edu/handle/20.500.14332/28500"
 gs: 13081425728037104005
 medium: thesis
 format: dissertation
-tags: [politics, technology, media, consciousness, cybernetics, video, art, visual culture, analog/digital, synthesizers, evolution, war, technopolitics, science, human sciences, medicine, engineering, drugs, anthropology, religion, Christianity, utopianism, communism, psychiatry, fascism, New York, California]
+tags: [politics, technology, media, consciousness, cybernetics, video, art, visual culture, analog/digital, synthesizers, evolution, war, technopolitics, science, human sciences, medicine, engineering, drugs, anthropology, religion, Christianity, utopianism, communism, psychiatry, fascism, New York, California, biology]
 major: yes
 ---
 
