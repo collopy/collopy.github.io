@@ -7,6 +7,9 @@ publisher: "Caltech Library"
 link: https://library.caltech.edu/crossing-over/catalog
 medium: book
 format: exhibition catalog
+image: crossingover.webp
+width: 240
+height: 300
 tags: [architecture, art, astronomy, biology, Caltech, chemistry, computing, engineering, geology, laboratories, media, physics, science, technology, visual culture, war, California]
 major: yes
 
