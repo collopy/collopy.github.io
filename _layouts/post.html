@@ -170,9 +170,11 @@ layout: default
 </div>
 {% endif %}
 
-{%- if page.image -%}
-<a href="{{ page.link }}"><img style="float: left; margin: 3px 10px 10px 0;" title="{{ page.title }} book cover" src="/images/{{ page.image }}" width="{{ page.width }}" height="{{ page.height }}"></a>
-{% endif %}
+{%- if page.cover -%}
+<a href="{%- if page.publication-link -%}{{ page.publication-link }}{%- else -%}{{ page.link }}{%- endif -%}"><img style="float: left; margin: 3px 15px 15px 0;" alt="{{ page.title }} book cover" src="/images/{{ page.cover }}" width="200"></a>
+{%- elsif page.image -%}
+<img style="float: left; margin: 3px 15px 15px 0;" alt="{{ page.image-alt }}" src="/images/{{ page.image }}" width="200">
+{%- endif -%}
 
 {{ content }}
 

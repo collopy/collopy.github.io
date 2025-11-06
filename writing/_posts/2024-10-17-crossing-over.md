@@ -7,9 +7,7 @@ publisher: "Caltech Library"
 link: https://library.caltech.edu/crossing-over/catalog
 medium: book
 format: exhibition catalog
-image: crossingover.webp
-width: 240
-height: 300
+cover: crossing_over.webp
 tags: [architecture, art, astronomy, biology, Caltech, chemistry, computing, engineering, geology, laboratories, media, physics, science, technology, visual culture, war, California]
 major: yes
 
@@ -25,8 +23,6 @@ alt-highlight: yes
 review-links: [https://doi.org/10.1353/tech.2025.a965837]
 review-venues: [Technology and Culture]
 ---
-
-This book offers an exciting in-depth look at the intersection of art and science at the renowned California Institute of Technology.
 
 Science is as much a visual practice as a textual or quantitative one. For centuries, scientists have used microscopes, telescopes, painting, illustration, printing, and photography to perceive nature and communicate what they see in it, often in collaboration with artists. In the twentieth century, scientists also came to view creativity as an essential resource and looked to art to foster it.
 

@@ -8,6 +8,7 @@ publisher: Yale University Press
 link: "https://aaeportal.com/?id=-32155"
 medium: chapter
 tags: [technology, media, video, cybernetics, psychiatry, consciousness, visual culture, human sciences, medicine, art, drugs, anarchism, politics, conservatism, technopolitics, philosophy, New York]
+cover: modernism_art_therapy.avif
 major: yes
 ---
 

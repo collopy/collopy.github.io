@@ -9,6 +9,7 @@ publication-link: "https://library.caltech.edu/crossing-over/catalog"
 medium: chapter
 pages: 288–93
 tags: [art, Caltech, chemistry, computing, engineering, media, science, technology, visual culture, California]
+cover: crossing_over.webp
 major: yes
 ---
 
