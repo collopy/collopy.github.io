@@ -25,9 +25,11 @@ p {margin: 8pt 0;}
 .translation {color: rgb(110, 110, 110);}
 [role=doc-endnote] {padding: 0;}
 .cover {float: left; margin: 3px 15px 15px 0;}
+#covers {text-align: center;}
 
 @media screen and (max-width: 440px)
 {
 	body {padding: 30px;}
 	.cover {clear: right; float: none; display: block; margin: auto;}
+	#covers {display: none;}
 }
