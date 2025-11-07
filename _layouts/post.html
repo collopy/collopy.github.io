@@ -171,15 +171,15 @@ layout: default
 {% endif %}
 
 {%- if page.cover -%}
-<a href="{%- if page.publication-link -%}{{ page.publication-link }}{%- else -%}{{ page.link }}{%- endif -%}"><img class="cover" alt="{{ page.title }} book cover" src="/images/{{ page.cover }}" width="200"></a>
+<a href="{%- if page.publication-link -%}{{ page.publication-link }}{%- else -%}{{ page.link }}{%- endif -%}"><img class="cover" alt="{{ page.title }} book cover" src="/images/{{ page.cover }}" height="250"></a>
 {%- elsif page.image -%}
-<img style="float: left; margin: 3px 15px 15px 0;" alt="{{ page.image-alt }}" src="/images/{{ page.image }}" width="200">
+<img style="float: left; margin: 3px 15px 15px 0;" alt="{{ page.image-alt }}" src="/images/{{ page.image }}" height="250">
 {%- endif -%}
 
 {{ content }}
 
 {%- if page.link or page.alt-link -%}
-  <div class="metadata">
+  <div class="metadata" style="clear: none;">
     {%- if page.link and page.alt-link -%}
       More: <a href="{{ page.link }}">{% if page.format %}{{ page.format }}{% else %}{{ page.title }}{% endif %}</a>, <a href="{{ page.alt-link }}">{% if page.alt-language or page.alt-format %}{% if page.alt-language %}{{ page.alt-language }}{% endif %}{% if page.alt-format %} {{ page.alt-format }}{% endif %}{% else %}{{ page.alt-title }}{% endif %}</a>
     {%- elsif page.link -%}
