@@ -24,8 +24,10 @@ p {margin: 8pt 0;}
 .icon {display: inline; float: left; position: relative; width: 2em; margin-left: -2.5em; text-align: right;}
 .translation {color: rgb(110, 110, 110);}
 [role=doc-endnote] {padding: 0;}
+.cover {float: left; margin: 3px 15px 15px 0;}
 
-@media screen and (max-width: 400px)
+@media screen and (max-width: 440px)
 {
-	.citation {clear: right;}
+	body {padding: 30px;}
+	.cover {clear: right; float: none; display: block; margin: auto;}
 }
