@@ -8,7 +8,7 @@ link: https://library.caltech.edu/crossing-over/catalog
 medium: book
 format: exhibition catalog
 cover: crossing_over.webp
-tags: [architecture, art, astronomy, biology, Caltech, chemistry, computing, engineering, geology, laboratories, media, physics, science, technology, visual culture, war, California]
+tags: [architecture, art, astronomy, biology, Caltech, chemistry, computing, engineering, geology, laboratories, media, physics, science, technology, visual culture, war, California, education]
 major: yes
 
 alt-title: "introduction"

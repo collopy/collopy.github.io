@@ -8,7 +8,7 @@ link: https://doi.org/10.7907/dxfym-9b525
 publication-link: "https://library.caltech.edu/crossing-over/catalog"
 medium: chapter
 pages: 288–93
-tags: [art, Caltech, chemistry, computing, engineering, media, science, technology, visual culture, California]
+tags: [art, Caltech, chemistry, computing, engineering, media, science, technology, visual culture, California, education]
 cover: crossing_over.webp
 major: yes
 ---
