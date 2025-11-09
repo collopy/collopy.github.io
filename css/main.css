@@ -26,6 +26,7 @@ p {margin: 8pt 0;}
 [role=doc-endnote] {padding: 0;}
 .cover {float: left; margin: 3px 15px 15px 0;}
 #covers {text-align: center;}
+#covers img {margin: 2px;}
 
 @media screen and (max-width: 440px)
 {
