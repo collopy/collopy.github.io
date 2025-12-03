@@ -3,7 +3,7 @@
   {% if post.major != yes %}
     {% if major_counter == 0 %}
       {% assign major_counter = 1 %}
-      <h3>Major Works</h3>
+      <h2>Major Works</h2>
       <ul class="posts">
     {% endif %}
     {% include blogpost.html %}
@@ -19,7 +19,7 @@
     {% if minor_counter == 0 %}
       {% assign minor_counter = 1 %}
       {% if major_counter == 1 %}
-        <h3>Secondary Projects</h3>
+        <h2>Secondary Projects</h2>
       {% endif %}
       <ul class="posts">
     {% endif %}
