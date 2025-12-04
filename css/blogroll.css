@@ -1,5 +1,6 @@
 table {clear: right;}
-th {vertical-align: top;}
-th, td {padding: 3px; border-top: 1px solid white;}
-.top th, .top td {padding-top: 5px; border-top-color: black;}
+th {vertical-align: top; text-align: left;}
+th, td {padding: 3px; border-top: 2px solid white;}
+.top th, .top td {padding-top: 4px; border-top: 1px solid black;}
 .linked {background-color: #EEF;}
+.continue {border-color: #EEF;}
