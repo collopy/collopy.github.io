@@ -4,3 +4,4 @@ th, td {padding: 3px; border-top: 2px solid white;}
 .top th, .top td {padding-top: 4px; border-top: 1px solid black;}
 .linked {background-color: #EEF;}
 .continue {border-color: #EEF;}
+.seperate {border-right: 2px solid white;}
