@@ -1,0 +1,5 @@
+ul {margin: 0; padding-top: 4px;}
+li {padding: 4px 0; break-inside: avoid;}
+li li:last-child {padding-bottom: 0;}
+li {font-weight: bold;}
+li li {font-weight: normal;}

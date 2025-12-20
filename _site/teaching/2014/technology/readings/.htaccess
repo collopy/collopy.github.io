@@ -1,0 +1,4 @@
+AuthName "Please enter the username and password to access course materials for Technology and Society"
+AuthType Basic
+AuthUserFile /home/collopy/.htpasswd
+Require valid-user
