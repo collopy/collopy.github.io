@@ -2,7 +2,7 @@
 layout: post
 title: "Sitting Down with Uncomfortable Things in the Caltech Archives"
 venue: "Caltech"
-collaborators: [graduate students, postdocs, Maura Dykstra]
+collaborators: [students, postdocs, Maura Dykstra]
 link: "https://www.youtube.com/watch?v=iHF6JEOLFVU"
 medium: video
 tags: [eugenics, Caltech, politics, science, conservatism, human sciences, education, white supremacy, California]
